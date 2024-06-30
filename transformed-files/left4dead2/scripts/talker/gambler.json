@@ -1,0 +1,679 @@
+{
+  "criterions": [
+    {
+      "name": "GamblerNotPickedUpItem",
+      "matchKey": "GamblerPickedUpItem",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "GamblerNotSaidGrabbingCan",
+      "matchKey": "SaidGrabbingCan",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsGamblerFriendlyFire",
+      "matchKey": "worldGamblerFriendlyFire",
+      "matchValue": "1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotGamblerFriendlyFire",
+      "matchKey": "worldGamblerFriendlyFire",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotAskedForCoverGambler",
+      "matchKey": "GamblerAskForCover",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidGamblerWitchChasing",
+      "matchKey": "SaidGamblerWitchChasing",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidAlertGiveItemStopGambler",
+      "matchKey": "SaidAlertGiveItemStopGambler",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidAlertGiveItemStopFirstAidGambler",
+      "matchKey": "SaidAlertGiveItemStopFirstAidGambler",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidBeenJockeyedGambler",
+      "matchKey": "SaidBeenJockeyedGambler",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsSaidGamblerWitchAttacking",
+      "matchKey": "SaidGamblerWitchAttacking",
+      "matchValue": "1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M3_002",
+      "matchKey": "worldSrcGrp_C4M3_002",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M2_SAFE002",
+      "matchKey": "worldSrcGrp_C2M2_SAFE002",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M3_SPOT01",
+      "matchKey": "worldSrcGrp_C2M3_SPOT01",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M3_SPOT02",
+      "matchKey": "worldSrcGrp_C2M3_SPOT02",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M3_007",
+      "matchKey": "worldSrcGrp_C2M3_007",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M4_700",
+      "matchKey": "worldSrcGrp_C2M4_700",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M4_008",
+      "matchKey": "worldSrcGrp_C2M4_008",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M4_009",
+      "matchKey": "worldSrcGrp_C2M4_009",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M4_SAFE001",
+      "matchKey": "worldSrcGrp_C2M4_SAFE001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M4_910",
+      "matchKey": "worldSrcGrp_C2M4_910",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M5_001",
+      "matchKey": "worldSrcGrp_C2M5_001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M5_101",
+      "matchKey": "worldSrcGrp_C2M5_101",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M5_100",
+      "matchKey": "worldSrcGrp_C2M5_100",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M5_SAFE001",
+      "matchKey": "worldSrcGrp_C2M5_SAFE001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M5_THANK",
+      "matchKey": "worldSrcGrp_C2M5_THANK",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M3_SAFE001",
+      "matchKey": "worldSrcGrp_C2M3_SAFE001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C3M2_900",
+      "matchKey": "worldSrcGrp_C3M2_900",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M2_006",
+      "matchKey": "worldSrcGrp_C4M2_006",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M2_008",
+      "matchKey": "worldSrcGrp_C4M2_008",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M2_007",
+      "matchKey": "worldSrcGrp_C4M2_007",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M5_001",
+      "matchKey": "worldSrcGrp_C4M5_001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C5M1_FLYBY01",
+      "matchKey": "worldSrcGrp_C5M1_FLYBY01",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C5M3_NAG01",
+      "matchKey": "worldSrcGrp_C5M3_NAG01",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C5M3_NAG03",
+      "matchKey": "worldSrcGrp_C5M3_NAG03",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C5M3_CAR01",
+      "matchKey": "worldSrcGrp_C5M3_CAR01",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C5M3_CAR02",
+      "matchKey": "worldSrcGrp_C5M3_CAR02",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C5M4BOMB_100",
+      "matchKey": "worldSrcGrp_C5M4BOMB_100",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C5M5_002",
+      "matchKey": "worldSrcGrp_C5M5_002",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C5M5_001",
+      "matchKey": "worldSrcGrp_C5M5_001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C5M5_600",
+      "matchKey": "worldSrcGrp_C5M5_600",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C5M5_004",
+      "matchKey": "worldSrcGrp_C5M5_004",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C5M5_003",
+      "matchKey": "worldSrcGrp_C5M5_003",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_ELLISSTORYINIT",
+      "matchKey": "worldSrcGrp_ELLISSTORYINIT",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_ELLISSTORY",
+      "matchKey": "worldSrcGrp_ELLISSTORY",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M1_003",
+      "matchKey": "worldSrcGrp_C4M1_003",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M1_001",
+      "matchKey": "worldSrcGrp_C2M1_001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M1_004",
+      "matchKey": "worldSrcGrp_C2M1_004",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M1_005",
+      "matchKey": "worldSrcGrp_C2M1_005",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M1_002",
+      "matchKey": "worldSrcGrp_C2M1_002",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M1_006",
+      "matchKey": "worldSrcGrp_C2M1_006",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M1_007",
+      "matchKey": "worldSrcGrp_C2M1_007",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M1_003",
+      "matchKey": "worldSrcGrp_C2M1_003",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M2_FOOD_005",
+      "matchKey": "worldSrcGrp_C2M2_FOOD_005",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M2_FOOD_006",
+      "matchKey": "worldSrcGrp_C2M2_FOOD_006",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M2_FOOD_008",
+      "matchKey": "worldSrcGrp_C2M2_FOOD_008",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M2_FOOD_002",
+      "matchKey": "worldSrcGrp_C2M2_FOOD_002",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M2_FOOD_007",
+      "matchKey": "worldSrcGrp_C2M2_FOOD_007",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M2_FOOD_001",
+      "matchKey": "worldSrcGrp_C2M2_FOOD_001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M2_FOOD_003",
+      "matchKey": "worldSrcGrp_C2M2_FOOD_003",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M2_910",
+      "matchKey": "worldSrcGrp_C2M2_910",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M2_FOOD_004",
+      "matchKey": "worldSrcGrp_C2M2_FOOD_004",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M2_SLIDE",
+      "matchKey": "worldSrcGrp_C2M2_SLIDE",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M2_BATHROOM",
+      "matchKey": "worldSrcGrp_C2M2_BATHROOM",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M3_001",
+      "matchKey": "worldSrcGrp_C2M3_001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M3_005",
+      "matchKey": "worldSrcGrp_C2M3_005",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M3_003",
+      "matchKey": "worldSrcGrp_C2M3_003",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M3_002",
+      "matchKey": "worldSrcGrp_C2M3_002",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M4_001",
+      "matchKey": "worldSrcGrp_C2M4_001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M4_006",
+      "matchKey": "worldSrcGrp_C2M4_006",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M4_005",
+      "matchKey": "worldSrcGrp_C2M4_005",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M4_002",
+      "matchKey": "worldSrcGrp_C2M4_002",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M4_004",
+      "matchKey": "worldSrcGrp_C2M4_004",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C2M4_003",
+      "matchKey": "worldSrcGrp_C2M4_003",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M1_002",
+      "matchKey": "worldSrcGrp_C4M1_002",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M2_101",
+      "matchKey": "worldSrcGrp_C4M2_101",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M2_001",
+      "matchKey": "worldSrcGrp_C4M2_001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M2_102",
+      "matchKey": "worldSrcGrp_C4M2_102",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M2_003",
+      "matchKey": "worldSrcGrp_C4M2_003",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M2_002",
+      "matchKey": "worldSrcGrp_C4M2_002",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M2_004",
+      "matchKey": "worldSrcGrp_C4M2_004",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M2_100",
+      "matchKey": "worldSrcGrp_C4M2_100",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M3_005",
+      "matchKey": "worldSrcGrp_C4M3_005",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M3_010",
+      "matchKey": "worldSrcGrp_C4M3_010",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M3_051",
+      "matchKey": "worldSrcGrp_C4M3_051",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M3_053",
+      "matchKey": "worldSrcGrp_C4M3_053",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M3_050",
+      "matchKey": "worldSrcGrp_C4M3_050",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M3_003",
+      "matchKey": "worldSrcGrp_C4M3_003",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M3_052",
+      "matchKey": "worldSrcGrp_C4M3_052",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M3_001",
+      "matchKey": "worldSrcGrp_C4M3_001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M4_002",
+      "matchKey": "worldSrcGrp_C4M4_002",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M4_003",
+      "matchKey": "worldSrcGrp_C4M4_003",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M4_001",
+      "matchKey": "worldSrcGrp_C4M4_001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M1_001",
+      "matchKey": "worldSrcGrp_C4M1_001",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M2_104",
+      "matchKey": "worldSrcGrp_C4M2_104",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M1_004",
+      "matchKey": "worldSrcGrp_C4M1_004",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    },
+    {
+      "name": "IsNotSrcGrp_C4M5_002",
+      "matchKey": "worldSrcGrp_C4M5_002",
+      "matchValue": "<1",
+      "weight": 0,
+      "required": true
+    }
+  ],
+  "responses": [],
+  "rules": [],
+  "includes": []
+}

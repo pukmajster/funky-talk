@@ -1,0 +1,77 @@
+{
+  "criterions": [
+    {
+      "name": "ProducerNotPickedUpItem",
+      "matchKey": "ProducerPickedUpItem",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "ProducerNotSaidGrabbingCan",
+      "matchKey": "SaidGrabbingCan",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsProducerFriendlyFire",
+      "matchKey": "worldProducerFriendlyFire",
+      "matchValue": "1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotProducerFriendlyFire",
+      "matchKey": "worldProducerFriendlyFire",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotAskedForCoverProducer",
+      "matchKey": "ProducerAskForCover",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidProducerWitchChasing",
+      "matchKey": "SaidProducerWitchChasing",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidAlertGiveItemStopProducer",
+      "matchKey": "SaidAlertGiveItemStopProducer",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidAlertGiveItemStopFirstAidProducer",
+      "matchKey": "SaidAlertGiveItemStopFirstAidProducer",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidBeenJockeyedProducer",
+      "matchKey": "SaidBeenJockeyedProducer",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsSaidProducerWitchAttacking",
+      "matchKey": "SaidProducerWitchAttacking",
+      "matchValue": "1",
+      "weight": "0",
+      "required": true
+    }
+  ],
+  "responses": [],
+  "rules": [],
+  "includes": []
+}

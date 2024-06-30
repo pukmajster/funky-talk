@@ -1,0 +1,77 @@
+{
+  "criterions": [
+    {
+      "name": "CoachNotPickedUpItem",
+      "matchKey": "CoachPickedUpItem",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "CoachNotSaidGrabbingCan",
+      "matchKey": "SaidGrabbingCan",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsCoachFriendlyFire",
+      "matchKey": "worldCoachFriendlyFire",
+      "matchValue": "1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotCoachFriendlyFire",
+      "matchKey": "worldCoachFriendlyFire",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotAskedForCoverCoach",
+      "matchKey": "CoachAskForCover",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidCoachWitchChasing",
+      "matchKey": "SaidCoachWitchChasing",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidAlertGiveItemStopCoach",
+      "matchKey": "SaidAlertGiveItemStopCoach",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidAlertGiveItemStopFirstAidCoach",
+      "matchKey": "SaidAlertGiveItemStopFirstAidCoach",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidBeenJockeyedCoach",
+      "matchKey": "SaidBeenJockeyedCoach",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsSaidCoachWitchAttacking",
+      "matchKey": "SaidCoachWitchAttacking",
+      "matchValue": "1",
+      "weight": "0",
+      "required": true
+    }
+  ],
+  "responses": [],
+  "rules": [],
+  "includes": []
+}

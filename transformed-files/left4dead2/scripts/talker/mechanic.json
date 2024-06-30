@@ -1,0 +1,77 @@
+{
+  "criterions": [
+    {
+      "name": "MechanicNotPickedUpItem",
+      "matchKey": "MechanicPickedUpItem",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "MechanicNotSaidGrabbingCan",
+      "matchKey": "SaidGrabbingCan",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsMechanicFriendlyFire",
+      "matchKey": "worldMechanicFriendlyFire",
+      "matchValue": "1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotMechanicFriendlyFire",
+      "matchKey": "worldMechanicFriendlyFire",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotAskedForCoverMechanic",
+      "matchKey": "MechanicAskForCover",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidMechanicWitchChasing",
+      "matchKey": "SaidMechanicWitchChasing",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidAlertGiveItemStopMechanic",
+      "matchKey": "SaidAlertGiveItemStopMechanic",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidAlertGiveItemStopFirstAidMechanic",
+      "matchKey": "SaidAlertGiveItemStopFirstAidMechanic",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsNotSaidBeenJockeyedMechanic",
+      "matchKey": "SaidBeenJockeyedMechanic",
+      "matchValue": "!=1",
+      "weight": "0",
+      "required": true
+    },
+    {
+      "name": "IsSaidMechanicWitchAttacking",
+      "matchKey": "SaidMechanicWitchAttacking",
+      "matchValue": "1",
+      "weight": "0",
+      "required": true
+    }
+  ],
+  "responses": [],
+  "rules": [],
+  "includes": []
+}
