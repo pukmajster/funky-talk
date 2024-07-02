@@ -2,19 +2,17 @@
 
 This project aims to extract and organize all of L4D2's voice lines into something that can be used for other projects, such as custom vocalizer wheels in Funky.
 
-# About Talker Scripts
+# Response System
 
-Relevant Valve Developer Community topics:
+I suggest reading up on the [Response System](https://developer.valvesoftware.com/wiki/Response_System) documented on the Valve Developer Community.
 
+Other relevant Valve Developer Community topics:
+
+- [Concept](https://developer.valvesoftware.com/wiki/Concept)
 - [Criterion](https://developer.valvesoftware.com/wiki/Criterion)
-- [Response](https://developer.valvesoftware.com/wiki/Response)
+- [Context](https://developer.valvesoftware.com/wiki/Context)
 - [Rule](https://developer.valvesoftware.com/wiki/Rule)
-
-Talker scripts contain all the dialog the game's characters speak. Every voice line has a list of possible audio clips the character will say, a set of conditions that must be met in order for the dialog to play, and possibly a reference to the next voice line to play within any give dialog.
-
-- A criterion is a list of conditions that must be met for a voice line to play (e.g. if the character is Nick and is playing Survival)
-- A response block is a list of possible voice lines a character can say with a subsequent response to play after (should a different character respond to a played voice line)
-- A rule block contains a list of rules and settings to apply to a response, utilizing criterions
+- [Response](https://developer.valvesoftware.com/wiki/Response)
 
 # The Process
 
