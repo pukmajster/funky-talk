@@ -18,8 +18,8 @@ Other relevant Valve Developer Community topics:
 
 ## Extracting Game Files
 
-First we need to extract all relevant talker scripts from the game's VPKs'. We then store these raw scripts in the `source-files` folder. These scripts contain every voice line definition within the game.
+First we need to extract all relevant talker scripts from the game's VPKs'. We then store these raw scripts in the `1 source-files` folder. These scripts contain every voice line definition within the game.
 
 ## Transformation
 
-Next we take all these scripts and transform their data into something more accessible, readable, and usable. We're essentially taking the original scripts and converting them to JSON, which we'll save in `transformed-files`.
+Next we take all these scripts and transform their data into something more accessible, readable, and usable. We're essentially taking the original scripts and converting them to JSON, which we'll save in `2 transformed-files`.

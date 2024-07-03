@@ -4,70 +4,70 @@
       "name": "ProducerNotPickedUpItem",
       "matchKey": "ProducerPickedUpItem",
       "matchValue": "!=1",
-      "weight": "0",
+      "weight": 0,
       "required": true
     },
     "ProducerNotSaidGrabbingCan": {
       "name": "ProducerNotSaidGrabbingCan",
       "matchKey": "SaidGrabbingCan",
       "matchValue": "!=1",
-      "weight": "0",
+      "weight": 0,
       "required": true
     },
     "IsProducerFriendlyFire": {
       "name": "IsProducerFriendlyFire",
       "matchKey": "worldProducerFriendlyFire",
       "matchValue": "1",
-      "weight": "0",
+      "weight": 0,
       "required": true
     },
     "IsNotProducerFriendlyFire": {
       "name": "IsNotProducerFriendlyFire",
       "matchKey": "worldProducerFriendlyFire",
       "matchValue": "!=1",
-      "weight": "0",
+      "weight": 0,
       "required": true
     },
     "IsNotAskedForCoverProducer": {
       "name": "IsNotAskedForCoverProducer",
       "matchKey": "ProducerAskForCover",
       "matchValue": "!=1",
-      "weight": "0",
+      "weight": 0,
       "required": true
     },
     "IsNotSaidProducerWitchChasing": {
       "name": "IsNotSaidProducerWitchChasing",
       "matchKey": "SaidProducerWitchChasing",
       "matchValue": "!=1",
-      "weight": "0",
+      "weight": 0,
       "required": true
     },
     "IsNotSaidAlertGiveItemStopProducer": {
       "name": "IsNotSaidAlertGiveItemStopProducer",
       "matchKey": "SaidAlertGiveItemStopProducer",
       "matchValue": "!=1",
-      "weight": "0",
+      "weight": 0,
       "required": true
     },
     "IsNotSaidAlertGiveItemStopFirstAidProducer": {
       "name": "IsNotSaidAlertGiveItemStopFirstAidProducer",
       "matchKey": "SaidAlertGiveItemStopFirstAidProducer",
       "matchValue": "!=1",
-      "weight": "0",
+      "weight": 0,
       "required": true
     },
     "IsNotSaidBeenJockeyedProducer": {
       "name": "IsNotSaidBeenJockeyedProducer",
       "matchKey": "SaidBeenJockeyedProducer",
       "matchValue": "!=1",
-      "weight": "0",
+      "weight": 0,
       "required": true
     },
     "IsSaidProducerWitchAttacking": {
       "name": "IsSaidProducerWitchAttacking",
       "matchKey": "SaidProducerWitchAttacking",
       "matchValue": "1",
-      "weight": "0",
+      "weight": 0,
       "required": true
     }
   },
@@ -87,7 +87,7 @@
             "target": "any",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-2.638"
+            "delay": -2.638
           },
           "subtitle": "[Coughing from smoke]"
         },
@@ -97,7 +97,7 @@
             "target": "any",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-1.859"
+            "delay": -1.859
           },
           "subtitle": "[Coughing from smoke]"
         },
@@ -107,7 +107,7 @@
             "target": "any",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-1.290"
+            "delay": -1.29
           },
           "subtitle": "[Coughing from smoke]"
         },
@@ -117,7 +117,7 @@
             "target": "any",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-1.169"
+            "delay": -1.169
           },
           "subtitle": "[Coughing from smoke]"
         }
@@ -132,7 +132,7 @@
             "target": "any",
             "concept": "C1M3AlarmOffa",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "Got it!"
         }
@@ -165,7 +165,7 @@
             "target": "any",
             "concept": "C1M3SafeRoom2",
             "responseContext": "foo:0",
-            "delay": "3"
+            "delay": 3.0
           },
           "subtitle": "Blank"
         }
@@ -180,7 +180,7 @@
             "target": "any",
             "concept": "C1M4SafeRoom2",
             "responseContext": "foo:0",
-            "delay": "3"
+            "delay": 3.0
           },
           "subtitle": "Blank"
         }
@@ -195,7 +195,7 @@
             "target": "any",
             "concept": "_c4m3_startsafe02",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Alright. Everybody got a gas can? I do not want to make this trip twice."
         }
@@ -313,7 +313,7 @@
             "target": "coach",
             "concept": "C1M1_ElevatorHello01_02G1",
             "responseContext": "foo:0",
-            "delay": "-1.932"
+            "delay": -1.932
           },
           "subtitle": "Hey. Name's Rochelle, you?"
         }
@@ -384,7 +384,7 @@
             "target": "orator",
             "concept": "C1M2GunRoomDoorResponse5",
             "responseContext": "foo:0",
-            "delay": "-5.962"
+            "delay": -5.962
           },
           "subtitle": "Alright, sir. We'll go get you your snacks. But you better not try to weasel out of this."
         },
@@ -394,7 +394,7 @@
             "target": "orator",
             "concept": "C1M2GunRoomDoorResponse4",
             "responseContext": "foo:0",
-            "delay": "-4.974"
+            "delay": -4.974
           },
           "subtitle": "Sir, if you let me keep this gun? I'll go get you anything you need."
         }
@@ -422,7 +422,7 @@
             "target": "any",
             "concept": "C3M1FerryInTransit",
             "responseContext": "foo:0",
-            "delay": "25"
+            "delay": 25.0
           },
           "subtitle": "I'm calling the ferry."
         },
@@ -432,7 +432,7 @@
             "target": "any",
             "concept": "C3M1FerryInTransit",
             "responseContext": "foo:0",
-            "delay": "25"
+            "delay": 25.0
           },
           "subtitle": "Ferry's coming."
         }
@@ -447,7 +447,7 @@
             "target": "any",
             "concept": "C3M1FerryLanded2",
             "responseContext": "foo:0",
-            "delay": "4"
+            "delay": 4.0
           },
           "subtitle": "Okay, get on the ferry!"
         },
@@ -457,7 +457,7 @@
             "target": "any",
             "concept": "C3M1FerryLanded2",
             "responseContext": "foo:0",
-            "delay": "4"
+            "delay": 4.0
           },
           "subtitle": "Everyone on the ferry!"
         },
@@ -467,7 +467,7 @@
             "target": "any",
             "concept": "C3M1FerryLanded2",
             "responseContext": "foo:0",
-            "delay": "4"
+            "delay": 4.0
           },
           "subtitle": "Time to ride the ferry!"
         },
@@ -477,7 +477,7 @@
             "target": "any",
             "concept": "C3M1FerryLanded2",
             "responseContext": "foo:0",
-            "delay": "4"
+            "delay": 4.0
           },
           "subtitle": "Everyone, get on the ferry!"
         },
@@ -487,7 +487,7 @@
             "target": "any",
             "concept": "C3M1FerryLanded2",
             "responseContext": "foo:0",
-            "delay": "4"
+            "delay": 4.0
           },
           "subtitle": "Get on the boat!"
         },
@@ -497,7 +497,7 @@
             "target": "any",
             "concept": "C3M1FerryLanded2",
             "responseContext": "foo:0",
-            "delay": "4"
+            "delay": 4.0
           },
           "subtitle": "Everyone, get on the boat!"
         },
@@ -507,7 +507,7 @@
             "target": "any",
             "concept": "C3M1FerryLanded2",
             "responseContext": "foo:0",
-            "delay": "4"
+            "delay": 4.0
           },
           "subtitle": "Alright, get on the boat!"
         },
@@ -517,7 +517,7 @@
             "target": "any",
             "concept": "C3M1FerryLanded2",
             "responseContext": "foo:0",
-            "delay": "4"
+            "delay": 4.0
           },
           "subtitle": "Everyone on the boat!"
         },
@@ -527,7 +527,7 @@
             "target": "any",
             "concept": "C3M1FerryLanded2",
             "responseContext": "foo:0",
-            "delay": "4"
+            "delay": 4.0
           },
           "subtitle": "Okay, get on the boat! Time to ride the boat!"
         }
@@ -551,7 +551,7 @@
             "target": "any",
             "concept": "C3M2ComingHome",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "Lights are on!  Hello!!??!?!"
         },
@@ -561,7 +561,7 @@
             "target": "any",
             "concept": "C3M2ComingHome",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "Maybe people are here!"
         },
@@ -571,7 +571,7 @@
             "target": "any",
             "concept": "C3M2ComingHome",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "More lights!"
         },
@@ -581,7 +581,7 @@
             "target": "any",
             "concept": "C3M2ComingHome",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "Okay, if they have power..."
         },
@@ -591,7 +591,7 @@
             "target": "any",
             "concept": "C3M2ComingHome",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "Hellooo!!!  Helloooo!!!  We aren't CEDA!!"
         },
@@ -601,7 +601,7 @@
             "target": "any",
             "concept": "C3M2ComingHome",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "They really walled themselves off!"
         },
@@ -611,7 +611,7 @@
             "target": "any",
             "concept": "C3M2ComingHome",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "They look dug in, maybe they're alive!"
         },
@@ -621,7 +621,7 @@
             "target": "any",
             "concept": "C3M2ComingHome",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "Hello, hello - swamp people are you there?"
         },
@@ -631,7 +631,7 @@
             "target": "any",
             "concept": "C3M2ComingHome",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "Anyone there!  Help!"
         },
@@ -641,7 +641,7 @@
             "target": "any",
             "concept": "C3M2ComingHome",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "Hello!"
         },
@@ -651,7 +651,7 @@
             "target": "any",
             "concept": "C3M2ComingHome",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "Hey!  Help!"
         },
@@ -661,7 +661,7 @@
             "target": "any",
             "concept": "C3M2ComingHome",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "I don't see anyone."
         }
@@ -723,7 +723,7 @@
             "target": "any",
             "concept": "_introc1m1",
             "responseContext": "foo:0",
-            "delay": "2"
+            "delay": 2.0
           },
           "subtitle": ""
         }
@@ -738,7 +738,7 @@
             "target": "orator",
             "concept": "whitakerputcola",
             "responseContext": "foo:0",
-            "delay": "0"
+            "delay": 0.0
           },
           "subtitle": "Blank"
         }
@@ -821,7 +821,7 @@
             "target": "gambler",
             "concept": "WorldC3M1FerryCrossingC03",
             "responseContext": "foo:0",
-            "delay": "-0.883"
+            "delay": -0.883
           },
           "subtitle": "Not zombies."
         }
@@ -845,7 +845,7 @@
             "target": "any",
             "concept": "WorldC3M1FerryCrossingD03",
             "responseContext": "foo:0",
-            "delay": "-5.100"
+            "delay": -5.1
           },
           "subtitle": "So what do you think is going to kill us?  Zombies, gators, snakes, bugs or the swamp people?"
         }
@@ -869,7 +869,7 @@
             "target": "mechanic",
             "concept": "WorldC3M1FerryCrossingE02",
             "responseContext": "foo:0",
-            "delay": "-4.768"
+            "delay": -4.768
           },
           "subtitle": "What? Blood farmers?  Boy, what in the hell are you talking about?"
         }
@@ -884,7 +884,7 @@
             "target": "producer",
             "concept": "WorldC3M1FerryCrossingE04",
             "responseContext": "foo:0",
-            "delay": "-1.747"
+            "delay": -1.747
           },
           "subtitle": "Sorry I asked..."
         }
@@ -1198,7 +1198,7 @@
             "target": "any",
             "concept": "C1M2SafeRoom2",
             "responseContext": "foo:0",
-            "delay": "3"
+            "delay": 3.0
           },
           "subtitle": "Blank"
         }
@@ -1213,7 +1213,7 @@
             "target": "mechanic",
             "concept": "C1M2SafeRooma2",
             "responseContext": "foo:0",
-            "delay": "-2.843"
+            "delay": -2.843
           },
           "subtitle": "Okay, this man's talking some sense. Let's get out of here."
         }
@@ -1255,7 +1255,7 @@
             "target": "orator",
             "concept": "C1M2GoodLuckGettingToTheMall",
             "responseContext": "foo:0",
-            "delay": "3"
+            "delay": 3.0
           },
           "subtitle": "Barrier's down! Let's get to the mall."
         },
@@ -1265,7 +1265,7 @@
             "target": "orator",
             "concept": "C1M2GoodLuckGettingToTheMall",
             "responseContext": "foo:0",
-            "delay": "3"
+            "delay": 3.0
           },
           "subtitle": "There goes the barrier! Let's get out of here."
         },
@@ -1275,7 +1275,7 @@
             "target": "orator",
             "concept": "C1M2GoodLuckGettingToTheMall",
             "responseContext": "foo:0",
-            "delay": "3"
+            "delay": 3.0
           },
           "subtitle": "[whisper] Shit, I think I accidentally grabbed diet cola. We should go. Hey, thanks Whitaker!"
         },
@@ -1285,7 +1285,7 @@
             "target": "orator",
             "concept": "C1M2GoodLuckGettingToTheMall",
             "responseContext": "foo:0",
-            "delay": "3"
+            "delay": 3.0
           },
           "subtitle": "Damn. That man knows how to clear a path."
         }
@@ -1359,7 +1359,7 @@
             "target": "mechanic",
             "concept": "_c1m4startelevator2c",
             "responseContext": "foo:0",
-            "delay": "-2.333"
+            "delay": -2.333
           },
           "subtitle": "Okay. Anybody got any ideas?"
         }
@@ -1428,7 +1428,7 @@
             "target": "mechanic",
             "concept": "_c2m3_howcool",
             "responseContext": "foo:0",
-            "delay": "1.0"
+            "delay": 1.0
           },
           "subtitle": "I'm starting it!"
         }
@@ -1502,7 +1502,7 @@
             "target": "any",
             "concept": "_C2M4_GateOpen001",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Gate's open!"
         }
@@ -1517,7 +1517,7 @@
             "target": "any",
             "concept": "C2M4Chopper001",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Look!"
         }
@@ -1532,7 +1532,7 @@
             "target": "any",
             "concept": "C2M5_PlanWorked",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Woo! Yes! There's the chopper!"
         },
@@ -1542,7 +1542,7 @@
             "target": "any",
             "concept": "C2M5_PlanWorked",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "There's the chopper!"
         },
@@ -1552,7 +1552,7 @@
             "target": "any",
             "concept": "C2M5_PlanWorked",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "It worked! The chopper is here!"
         },
@@ -1562,7 +1562,7 @@
             "target": "any",
             "concept": "C2M5_PlanWorked",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "He sees us!"
         }
@@ -1577,7 +1577,7 @@
             "target": "gambler",
             "concept": "c2m5_intro004",
             "responseContext": "foo:0",
-            "delay": "0.1"
+            "delay": 0.1
           },
           "subtitle": "Huh. That's pretty smart, Coach."
         }
@@ -1609,7 +1609,7 @@
             "target": "self",
             "concept": "C2M5_PlanWorkedb",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": ""
         }
@@ -1712,7 +1712,7 @@
             "target": "mechanic",
             "concept": "WorldC3M1FerryCrossingJ3",
             "responseContext": "foo:0",
-            "delay": "-1.986"
+            "delay": -1.986
           },
           "subtitle": "I dunno. Maybe?"
         }
@@ -1727,7 +1727,7 @@
             "target": "mechanic",
             "concept": "WorldC3M1FerryCrossingk3",
             "responseContext": "foo:0",
-            "delay": "-1.703"
+            "delay": -1.703
           },
           "subtitle": "No indoor plumbing"
         }
@@ -1751,7 +1751,7 @@
             "target": "mechanic",
             "concept": "C3M2SafeRooma2",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "Does anyone have any bug spray?"
         }
@@ -1766,7 +1766,7 @@
             "target": "producer",
             "concept": "C3M2SafeRoom2c",
             "responseContext": "foo:0",
-            "delay": ".01"
+            "delay": 0.01
           },
           "subtitle": "We have to find the main river."
         }
@@ -1790,7 +1790,7 @@
             "target": "gambler",
             "concept": "C3M2SafeRoom3d",
             "responseContext": "foo:0",
-            "delay": "-3.763"
+            "delay": -3.763
           },
           "subtitle": "The white suit with zombie brains all over it? That one?"
         }
@@ -1814,7 +1814,7 @@
             "target": "mechanic",
             "concept": "C3M3SafeRoom2a2",
             "responseContext": "foo:0",
-            "delay": ".05"
+            "delay": 0.05
           },
           "subtitle": "Goddamnit, the swamp people are zombies."
         }
@@ -1838,7 +1838,7 @@
             "target": "mechanic",
             "concept": "C3M3SafeRoom2c3",
             "responseContext": "foo:0",
-            "delay": ".05"
+            "delay": 0.05
           },
           "subtitle": "We need to head to the river."
         }
@@ -1909,7 +1909,7 @@
             "target": "orator",
             "concept": "C3M4Button101",
             "responseContext": "foo:0",
-            "delay": "0.3"
+            "delay": 0.3
           },
           "subtitle": "Can anyone hear me?"
         }
@@ -1924,7 +1924,7 @@
             "target": "orator",
             "concept": "C3M4Button202",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "We're at the plantation house."
         }
@@ -1939,7 +1939,7 @@
             "target": "orator",
             "concept": "C3M4GateBlow02",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "WOW! Gate's open!"
         }
@@ -1963,7 +1963,7 @@
             "target": "any",
             "concept": "_c4m2_Witchville05",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "How many goddamn witches are there?"
         }
@@ -2006,7 +2006,7 @@
             "target": "coach",
             "concept": "C5M1_intro008",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "There's the bridge You sure they're going to be there?"
         }
@@ -2155,7 +2155,7 @@
             "target": "any",
             "concept": "C5M4BombInt01A",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Holy shit!"
         }
@@ -2202,7 +2202,7 @@
             "target": "any",
             "concept": "C5M4MadeIt01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "There's the bridge!"
         }
@@ -2217,7 +2217,7 @@
             "target": "any",
             "concept": "C5M4MadeIt01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Safe house up ahead!"
         },
@@ -2227,7 +2227,7 @@
             "target": "any",
             "concept": "C5M4MadeIt01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Looks like a safe room up ahead!"
         }
@@ -2242,7 +2242,7 @@
             "target": "mechanic",
             "concept": "EllisStoryReac01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Ellis, sweetie, can this wait?"
         }
@@ -2257,7 +2257,7 @@
             "target": "mechanic",
             "concept": "EllisStoryReac01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Ellis, sweetie, can this wait?"
         }
@@ -2290,7 +2290,7 @@
             "target": "orator",
             "concept": "C5M5_Soldier1Conv03",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Sorry for using the radio, but we are four survivors on the bridge."
         },
@@ -2300,7 +2300,7 @@
             "target": "orator",
             "concept": "C5M5_Soldier1Conv03",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Four survivors on the bridge."
         },
@@ -2310,7 +2310,7 @@
             "target": "orator",
             "concept": "C5M5_Soldier1Conv03",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "This is someone who could use some help."
         }
@@ -2325,7 +2325,7 @@
             "target": "orator",
             "concept": "C5M5_Soldier1Conv04",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "We are not infected."
         }
@@ -2340,7 +2340,7 @@
             "target": "orator",
             "concept": "C5M5_Soldier1Conv05",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Yeah, yes, yes we are immune."
         }
@@ -2381,7 +2381,7 @@
             "target": "orator",
             "concept": "C5M5_Soldier1Conv01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Hello?"
         }
@@ -2406,7 +2406,7 @@
             "target": "orator",
             "concept": "C5M5_Soldier1",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Blank"
         }
@@ -2421,7 +2421,7 @@
             "target": "orator",
             "concept": "C5M5StartHeliNag",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Woo! Yes! There's the chopper!"
         },
@@ -2431,7 +2431,7 @@
             "target": "orator",
             "concept": "C5M5StartHeliNag",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "There's the chopper!"
         }
@@ -2502,7 +2502,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "I been hearing about\u0085things. You know what, nevermind. But grab a weapon, trust me."
         },
@@ -2512,7 +2512,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "I think those things are down there, grab a weapon."
         },
@@ -2522,7 +2522,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "If we stay together and keep our heads, we can get out of this."
         },
@@ -2532,7 +2532,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "We should take some weapons. I work in the news and the news says we should definitely take some weapons."
         },
@@ -2542,7 +2542,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "I don't know, since this all seems to be true, trust me, when I say we should grab any weapon we can find."
         }
@@ -2557,7 +2557,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Adrenaline shot here!"
         },
@@ -2567,7 +2567,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Adrenaline shot here!"
         }
@@ -2582,7 +2582,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Adrenaline shot here!"
         },
@@ -2592,7 +2592,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Adrenaline shot here!"
         }
@@ -2607,7 +2607,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Ammo!"
         },
@@ -2617,7 +2617,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Ammo here!"
         },
@@ -2627,7 +2627,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Ammo here!"
         },
@@ -2637,7 +2637,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Ammo here!"
         },
@@ -2647,7 +2647,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Ammunition!"
         }
@@ -2768,7 +2768,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Chest paddles here."
         },
@@ -2778,7 +2778,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Defibrillator here."
         },
@@ -2788,7 +2788,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Defib unit here."
         },
@@ -2798,7 +2798,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Got a defib unit."
         }
@@ -2813,7 +2813,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Chest paddles here."
         },
@@ -2823,7 +2823,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Defibrillator here."
         },
@@ -2833,7 +2833,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Defib unit here."
         },
@@ -2843,7 +2843,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Got a defib unit."
         }
@@ -2964,7 +2964,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Pipebomb here."
         },
@@ -2974,7 +2974,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "There's a pipebomb here."
         },
@@ -2984,7 +2984,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Pipe bomb."
         }
@@ -2999,7 +2999,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Pipebomb here."
         },
@@ -3009,7 +3009,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "There's a pipebomb here."
         },
@@ -3019,7 +3019,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Pipe bomb."
         }
@@ -3043,7 +3043,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Grenade launcher here!"
         },
@@ -3053,7 +3053,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Grenade launcher here!"
         },
@@ -3063,7 +3063,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Grenade launcher."
         }
@@ -3078,7 +3078,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Grenade launcher here!"
         },
@@ -3088,7 +3088,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Grenade launcher here!"
         },
@@ -3098,7 +3098,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Grenade launcher."
         }
@@ -3113,7 +3113,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "First Aid Kit here!"
         },
@@ -3123,7 +3123,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "First Aid Kit!"
         },
@@ -3133,7 +3133,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "First Aid here!"
         },
@@ -3143,7 +3143,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "First Aid!"
         },
@@ -3153,7 +3153,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "There's a first aid kit here."
         }
@@ -3168,7 +3168,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "First Aid Kit here!"
         },
@@ -3178,7 +3178,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "First Aid Kit!"
         },
@@ -3188,7 +3188,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "First Aid here!"
         },
@@ -3198,7 +3198,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "First Aid!"
         },
@@ -3208,7 +3208,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "There's a first aid kit here."
         }
@@ -3354,7 +3354,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Look!"
         },
@@ -3364,7 +3364,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Check this shit out."
         }
@@ -3379,7 +3379,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Look!"
         },
@@ -3389,7 +3389,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Check this shit out."
         }
@@ -3413,7 +3413,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Pills here!"
         },
@@ -3423,7 +3423,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Pills here!"
         },
@@ -3433,7 +3433,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Pills!"
         }
@@ -3448,7 +3448,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Pills here!"
         },
@@ -3458,7 +3458,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Pills here!"
         },
@@ -3468,7 +3468,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Pills!"
         }
@@ -3501,7 +3501,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Explosive rounds here!"
         },
@@ -3511,7 +3511,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Explosive rounds here!"
         },
@@ -3521,7 +3521,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Explosive rounds here!"
         },
@@ -3531,7 +3531,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Frag rounds here!"
         }
@@ -3546,7 +3546,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Explosive rounds here!"
         },
@@ -3556,7 +3556,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Explosive rounds here!"
         },
@@ -3566,7 +3566,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Explosive rounds here!"
         },
@@ -3576,7 +3576,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Frag rounds here!"
         }
@@ -3591,7 +3591,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Incendiary ammo here!"
         },
@@ -3601,7 +3601,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Incendiary ammo here!"
         }
@@ -3616,7 +3616,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Incendiary ammo here!"
         },
@@ -3626,7 +3626,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Incendiary ammo here!"
         }
@@ -3641,7 +3641,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Boomer bile here!"
         },
@@ -3651,7 +3651,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Bile jar here!"
         }
@@ -3666,7 +3666,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Boomer bile here!"
         },
@@ -3676,7 +3676,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Bile jar here!"
         }
@@ -3691,7 +3691,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Bottle of\u0085 puke, apparently."
         },
@@ -3701,7 +3701,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "That had better not be what I think it is."
         }
@@ -3716,7 +3716,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Bottle of\u0085 puke, apparently."
         },
@@ -3726,7 +3726,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "That had better not be what I think it is."
         }
@@ -4708,7 +4708,7 @@
             "target": "any",
             "concept": "_c4m2_caneyell01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "KEEP MOVING! JUST HEAD FOR THE SIGN!"
         },
@@ -4718,7 +4718,7 @@
             "target": "any",
             "concept": "_c4m2_caneyell01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "HEAD FOR THE SIGN!"
         }
@@ -4979,7 +4979,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-3.462"
+            "delay": -3.462
           },
           "subtitle": "GET THIS THING OFF ME!!!"
         },
@@ -4989,7 +4989,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-2.482"
+            "delay": -2.482
           },
           "subtitle": "I CAN\"T SEE! THIS THING IS ON ME!!"
         },
@@ -4999,7 +4999,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-2.016"
+            "delay": -2.016
           },
           "subtitle": "HELP!!"
         },
@@ -5009,7 +5009,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-2.067"
+            "delay": -2.067
           },
           "subtitle": "GET THIS THING OFF MY HEAD!!!"
         },
@@ -5019,7 +5019,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-4.060"
+            "delay": -4.06
           },
           "subtitle": "AGH! LET GO! LET GO! LET GO!"
         },
@@ -5029,7 +5029,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-1.807"
+            "delay": -1.807
           },
           "subtitle": "LET GO! LET GO! LET GO!"
         },
@@ -5039,7 +5039,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-1.859"
+            "delay": -1.859
           },
           "subtitle": "IT'S ON MY FACE!"
         },
@@ -5049,7 +5049,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-2.083"
+            "delay": -2.083
           },
           "subtitle": "OH! IT'S, IT'S ON MY FACE!"
         },
@@ -5059,7 +5059,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-0.802"
+            "delay": -0.802
           },
           "subtitle": "[pain noise - loud major pain]"
         },
@@ -5069,7 +5069,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-0.299"
+            "delay": -0.299
           },
           "subtitle": "[pain noise - ahh]"
         },
@@ -5079,7 +5079,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-0.364"
+            "delay": -0.364
           },
           "subtitle": "[pain noise - oy]"
         },
@@ -5089,7 +5089,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-1.020"
+            "delay": -1.02
           },
           "subtitle": "GET IT OFF!"
         },
@@ -5099,7 +5099,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-1.434"
+            "delay": -1.434
           },
           "subtitle": "GET OFF!"
         },
@@ -5109,7 +5109,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-1.609"
+            "delay": -1.609
           },
           "subtitle": "GET OFF!  GET OFF!"
         }
@@ -5145,7 +5145,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-3.462"
+            "delay": -3.462
           },
           "subtitle": "GET THIS THING OFF ME!!!"
         },
@@ -5155,7 +5155,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-2.482"
+            "delay": -2.482
           },
           "subtitle": "I CAN\"T SEE! THIS THING IS ON ME!!"
         },
@@ -5165,7 +5165,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-2.016"
+            "delay": -2.016
           },
           "subtitle": "HELP!!"
         },
@@ -5175,7 +5175,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-2.067"
+            "delay": -2.067
           },
           "subtitle": "GET THIS THING OFF MY HEAD!!!"
         },
@@ -5185,7 +5185,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-4.060"
+            "delay": -4.06
           },
           "subtitle": "AGH! LET GO! LET GO! LET GO!"
         },
@@ -5195,7 +5195,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-1.807"
+            "delay": -1.807
           },
           "subtitle": "LET GO! LET GO! LET GO!"
         },
@@ -5205,7 +5205,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-1.859"
+            "delay": -1.859
           },
           "subtitle": "IT'S ON MY FACE!"
         },
@@ -5215,7 +5215,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-2.083"
+            "delay": -2.083
           },
           "subtitle": "OH! IT'S, IT'S ON MY FACE!"
         },
@@ -5225,7 +5225,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-0.802"
+            "delay": -0.802
           },
           "subtitle": "[pain noise - loud major pain]"
         },
@@ -5235,7 +5235,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-0.299"
+            "delay": -0.299
           },
           "subtitle": "[pain noise - ahh]"
         },
@@ -5245,7 +5245,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-0.364"
+            "delay": -0.364
           },
           "subtitle": "[pain noise - oy]"
         },
@@ -5255,7 +5255,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-1.020"
+            "delay": -1.02
           },
           "subtitle": "GET IT OFF!"
         },
@@ -5265,7 +5265,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-1.434"
+            "delay": -1.434
           },
           "subtitle": "GET OFF!"
         },
@@ -5275,7 +5275,7 @@
             "target": "all",
             "concept": "commentjockey",
             "responseContext": "foo:0",
-            "delay": "-1.609"
+            "delay": -1.609
           },
           "subtitle": "GET OFF!  GET OFF!"
         }
@@ -5395,7 +5395,7 @@
             "target": "any",
             "concept": "FriendNeedsHelp",
             "responseContext": "foo:0",
-            "delay": "-2.586"
+            "delay": -2.586
           },
           "subtitle": "For the love of god, someone help me!!!"
         },
@@ -5405,7 +5405,7 @@
             "target": "any",
             "concept": "FriendNeedsHelp",
             "responseContext": "foo:0",
-            "delay": "-2.039"
+            "delay": -2.039
           },
           "subtitle": "Damn, I need some help!"
         },
@@ -5415,7 +5415,7 @@
             "target": "any",
             "concept": "FriendNeedsHelp",
             "responseContext": "foo:0",
-            "delay": "-1.717"
+            "delay": -1.717
           },
           "subtitle": "Ohhh I need some help!"
         },
@@ -5425,7 +5425,7 @@
             "target": "any",
             "concept": "FriendNeedsHelp",
             "responseContext": "foo:0",
-            "delay": "-1.004"
+            "delay": -1.004
           },
           "subtitle": "Help me!"
         },
@@ -5435,7 +5435,7 @@
             "target": "any",
             "concept": "FriendNeedsHelp",
             "responseContext": "foo:0",
-            "delay": "-0.779"
+            "delay": -0.779
           },
           "subtitle": "Help!"
         },
@@ -5445,7 +5445,7 @@
             "target": "any",
             "concept": "FriendNeedsHelp",
             "responseContext": "foo:0",
-            "delay": "-0.856"
+            "delay": -0.856
           },
           "subtitle": "Help!"
         },
@@ -5455,7 +5455,7 @@
             "target": "any",
             "concept": "FriendNeedsHelp",
             "responseContext": "foo:0",
-            "delay": "-1.683"
+            "delay": -1.683
           },
           "subtitle": "Gentlemen, I need some help!"
         },
@@ -5465,7 +5465,7 @@
             "target": "any",
             "concept": "FriendNeedsHelp",
             "responseContext": "foo:0",
-            "delay": "-2.357"
+            "delay": -2.357
           },
           "subtitle": "Come on guys, I need some help!"
         }
@@ -5502,7 +5502,7 @@
             "target": "self",
             "concept": "EndOfWavWindow5",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Woah"
         },
@@ -5512,7 +5512,7 @@
             "target": "self",
             "concept": "EndOfWavWindow5",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Woah"
         },
@@ -5522,7 +5522,7 @@
             "target": "self",
             "concept": "EndOfWavWindow5",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Woah woah woah"
         },
@@ -5532,7 +5532,7 @@
             "target": "self",
             "concept": "EndOfWavWindow5",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Woohoo! Hang on!"
         }
@@ -5556,7 +5556,7 @@
             "target": "any",
             "concept": "_C2M2_CaroStart03",
             "responseContext": "foo:0",
-            "delay": "2.0"
+            "delay": 2.0
           },
           "subtitle": "Gate's open!"
         }
@@ -5611,7 +5611,7 @@
             "target": "any",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-1.293"
+            "delay": -1.293
           },
           "subtitle": "We've gotta get around this fire!"
         }
@@ -5626,7 +5626,7 @@
             "target": "any",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-1.111"
+            "delay": -1.111
           },
           "subtitle": "Come on, this way!"
         },
@@ -5636,7 +5636,7 @@
             "target": "any",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-0.588"
+            "delay": -0.588
           },
           "subtitle": "Over here."
         },
@@ -5646,7 +5646,7 @@
             "target": "any",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-0.575"
+            "delay": -0.575
           },
           "subtitle": "This way!"
         }
@@ -5661,7 +5661,7 @@
             "target": "any",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-2.695"
+            "delay": -2.695
           },
           "subtitle": "Search those rooms. Might be something we can use."
         }
@@ -5676,7 +5676,7 @@
             "target": "any",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-0.677"
+            "delay": -0.677
           },
           "subtitle": "Through this door!"
         }
@@ -5799,7 +5799,7 @@
             "target": "any",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-2.695"
+            "delay": -2.695
           },
           "subtitle": "Search those rooms. Might be something we can use."
         }
@@ -6124,7 +6124,7 @@
             "target": "any",
             "concept": "_c2m1_searchlights01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "You guys see those searchlights? I say we head there."
         },
@@ -6134,7 +6134,7 @@
             "target": "any",
             "concept": "_c2m1_searchlights01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "We should head towards those searchlights."
         }
@@ -6200,7 +6200,7 @@
             "target": "mechanic",
             "concept": "_C2M2_Slide01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Let's move."
         }
@@ -6224,7 +6224,7 @@
             "target": "any",
             "concept": "_C2M2_Bathroom01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Umm.. guys, this is the lady's room."
         }
@@ -6253,7 +6253,7 @@
             "target": "any",
             "concept": "_c2m3_hole01",
             "responseContext": "foo:0",
-            "delay": "0.1"
+            "delay": 0.1
           },
           "subtitle": "Down that hole!"
         }
@@ -6393,7 +6393,7 @@
             "target": "mechanic",
             "concept": "InfoRemC3M2Bathtub2",
             "responseContext": "foo:0",
-            "delay": "-4.301"
+            "delay": -4.301
           },
           "subtitle": "Hey Ellis, that's a bathtub.  You ever seen one before?"
         }
@@ -6507,7 +6507,7 @@
             "target": "any",
             "concept": "C3M2ComingHome",
             "responseContext": "foo:0",
-            "delay": "1"
+            "delay": 1.0
           },
           "subtitle": "Hey, the village is this way!"
         }
@@ -6552,7 +6552,7 @@
             "target": "mechanic",
             "concept": "InfoRemC3M3Bodies2",
             "responseContext": "foo:0",
-            "delay": "-4.955"
+            "delay": -4.955
           },
           "subtitle": "We heard reports the virus spread through mammals but..."
         }
@@ -6567,7 +6567,7 @@
             "target": "any",
             "concept": "InfoRemC3M3LowerGatea",
             "responseContext": "foo:0",
-            "delay": "10"
+            "delay": 10.0
           },
           "subtitle": "Okay, we need to lower this bridge."
         },
@@ -6577,7 +6577,7 @@
             "target": "any",
             "concept": "InfoRemC3M3LowerGatea",
             "responseContext": "foo:0",
-            "delay": "10"
+            "delay": 10.0
           },
           "subtitle": "Only way over is this bridge."
         },
@@ -6587,7 +6587,7 @@
             "target": "any",
             "concept": "InfoRemC3M3LowerGatea",
             "responseContext": "foo:0",
-            "delay": "10"
+            "delay": 10.0
           },
           "subtitle": "Only way over is this walkway."
         },
@@ -6597,7 +6597,7 @@
             "target": "any",
             "concept": "InfoRemC3M3LowerGatea",
             "responseContext": "foo:0",
-            "delay": "10"
+            "delay": 10.0
           },
           "subtitle": "Someone lower this walkway."
         }
@@ -6773,7 +6773,7 @@
             "target": "any",
             "concept": "c4m1_wreck01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Now that is nasty wreck."
         }
@@ -6797,7 +6797,7 @@
             "target": "any",
             "concept": "c4m1_nogas10",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Next gas: two miles. Well, shit."
         }
@@ -6848,7 +6848,7 @@
             "target": "any",
             "concept": "_c4m2_gasinside01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Says here the gas is inside."
         }
@@ -6881,7 +6881,7 @@
             "target": "self",
             "concept": "_c4m2_seestation01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Hey! There's the gas station!"
         }
@@ -6905,7 +6905,7 @@
             "target": "any",
             "concept": "_c4m2_streetblocked01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "We're not going any farther on this road."
         }
@@ -6947,7 +6947,7 @@
             "target": "any",
             "concept": "_c4m2_waterpool02",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "The water's starting to pool."
         },
@@ -6957,7 +6957,7 @@
             "target": "mechanic",
             "concept": "_c4m2_waterpool01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Uh, does it flood around here?"
         }
@@ -7055,7 +7055,7 @@
             "target": "coach",
             "concept": "_C4M3_FLOODED01",
             "responseContext": "foo:0",
-            "delay": "0.2"
+            "delay": 0.2
           },
           "subtitle": "This flooded fast."
         },
@@ -7065,7 +7065,7 @@
             "target": "coach",
             "concept": "_C4M3_FLOODED01",
             "responseContext": "foo:0",
-            "delay": "0.2"
+            "delay": 0.2
           },
           "subtitle": "It's all flooded."
         }
@@ -7089,7 +7089,7 @@
             "target": "Mechanic",
             "concept": "_c4m3_rain02",
             "responseContext": "foo:0",
-            "delay": "0.02"
+            "delay": 0.02
           },
           "subtitle": "How bad do these storms get?"
         }
@@ -7131,7 +7131,7 @@
             "target": "an",
             "concept": "_C4M4_FLOODED01",
             "responseContext": "foo:0",
-            "delay": "0.5"
+            "delay": 0.5
           },
           "subtitle": "This flooded fast."
         }
@@ -7146,7 +7146,7 @@
             "target": "any",
             "concept": "_C4M4_garagesale01",
             "responseContext": "foo:0",
-            "delay": "0.1"
+            "delay": 0.1
           },
           "subtitle": "There's that garage sale!"
         }
@@ -7207,7 +7207,7 @@
             "target": "Coach",
             "concept": "_C2M1abandoned01",
             "responseContext": "foo:0",
-            "delay": "0.02"
+            "delay": 0.02
           },
           "subtitle": "These abandoned cars go on for MILES."
         }
@@ -7222,7 +7222,7 @@
             "target": "Coach",
             "concept": "_C2M1Billboard",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Look at this."
         }
@@ -7454,7 +7454,7 @@
             "target": "any",
             "concept": "WorldC3M1FerryCrossingA01",
             "responseContext": "foo:0",
-            "delay": "-4.110"
+            "delay": -4.11
           },
           "subtitle": "So, umm... Do you guys know anything about the swamps?"
         }
@@ -7469,7 +7469,7 @@
             "target": "mechanic",
             "concept": "WorldC3M1FerryCrossingB01",
             "responseContext": "foo:0",
-            "delay": "-2.025"
+            "delay": -2.025
           },
           "subtitle": "Ellis, does your tattoo mean anything?"
         }
@@ -7484,7 +7484,7 @@
             "target": "gambler",
             "concept": "WorldC3M1FerryCrossingC01",
             "responseContext": "foo:0",
-            "delay": "-3.171"
+            "delay": -3.171
           },
           "subtitle": "Nick, what do you think the odds are that the swamp people are still alive?"
         }
@@ -7581,7 +7581,7 @@
             "target": "coach",
             "concept": "WorldC3M1Walkways2",
             "responseContext": "foo:0",
-            "delay": "-1.209"
+            "delay": -1.209
           },
           "subtitle": "Okay, stay on the walkway."
         }
@@ -7643,7 +7643,7 @@
             "target": "any",
             "concept": "WorldC502Smell2",
             "responseContext": "foo:0",
-            "delay": "-2.701"
+            "delay": -2.701
           },
           "subtitle": "What's that smell?"
         }
@@ -8783,7 +8783,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "Okay this was a mistake."
         },
@@ -8793,7 +8793,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "Okay, this seriously hurts."
         },
@@ -8803,7 +8803,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "Okay, okay  that one hurt."
         },
@@ -8813,7 +8813,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "Girl, you should have stayed with Jacob. (to self)"
         },
@@ -8823,7 +8823,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "By the beard of Zeus this hurts!"
         },
@@ -8833,7 +8833,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "Son of a bee-sting. this hurts."
         },
@@ -8843,7 +8843,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "This is not happening, This is not happening. This is not happening. (to self)"
         },
@@ -8853,7 +8853,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "Did this ever seem like a good idea?"
         },
@@ -8863,7 +8863,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "Knights of Columbus this hurts."
         },
@@ -8873,7 +8873,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "I am too young to feel this old."
         },
@@ -8883,7 +8883,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "This is not going well."
         },
@@ -8893,7 +8893,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "One of you fellas want to carry the cute girl?"
         },
@@ -8903,7 +8903,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "I think I really hurt something."
         },
@@ -8913,7 +8913,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "Anyone else feel like crap right now?"
         },
@@ -8923,7 +8923,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "This is some grim shit we got ourselves into."
         },
@@ -8933,7 +8933,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "This is some grim shit we got ourselves into."
         },
@@ -8943,7 +8943,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "Something's got to break our way."
         },
@@ -8953,7 +8953,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "So this is how it's going to be."
         },
@@ -8963,7 +8963,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "Girl, you should have stayed at home. (to self)"
         },
@@ -8973,7 +8973,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "You have got to be kidding me."
         },
@@ -8983,7 +8983,7 @@
             "target": "coach",
             "concept": "coachcoaches",
             "responseContext": "foo:0",
-            "delay": ".5"
+            "delay": 0.5
           },
           "subtitle": "I got a plan, let's kill all the zombies. Sound good?"
         }
@@ -9015,7 +9015,7 @@
             "target": "subject",
             "concept": "AlertGiveItemStop",
             "responseContext": "foo:0",
-            "delay": "0"
+            "delay": 0.0
           },
           "subtitle": "Blank"
         }
@@ -9039,7 +9039,7 @@
             "target": "subject",
             "concept": "AlertGiveItemStopFirstAidA",
             "responseContext": "foo:0",
-            "delay": "0"
+            "delay": 0.0
           },
           "subtitle": "Blank"
         }
@@ -9119,7 +9119,7 @@
             "target": "any",
             "concept": "StayTogetherInsideReponse",
             "responseContext": "foo:0",
-            "delay": "-1.498"
+            "delay": -1.498
           },
           "subtitle": "Get your asses inside."
         },
@@ -9129,7 +9129,7 @@
             "target": "any",
             "concept": "StayTogetherInsideReponse",
             "responseContext": "foo:0",
-            "delay": "-2.430"
+            "delay": -2.43
           },
           "subtitle": "What in the hell are you doing out there?  Get inside!"
         },
@@ -9139,7 +9139,7 @@
             "target": "any",
             "concept": "StayTogetherInsideReponse",
             "responseContext": "foo:0",
-            "delay": "-0.914"
+            "delay": -0.914
           },
           "subtitle": "Get inside!"
         },
@@ -9149,7 +9149,7 @@
             "target": "any",
             "concept": "StayTogetherInsideReponse",
             "responseContext": "foo:0",
-            "delay": "-0.994"
+            "delay": -0.994
           },
           "subtitle": "Everyone inside!"
         },
@@ -9159,7 +9159,7 @@
             "target": "any",
             "concept": "StayTogetherInsideReponse",
             "responseContext": "foo:0",
-            "delay": "-1.122"
+            "delay": -1.122
           },
           "subtitle": "Everyone, in here!"
         }
@@ -9256,7 +9256,7 @@
             "target": "Any",
             "concept": "GrenadeCareful",
             "responseContext": "foo:0",
-            "delay": "-1.119"
+            "delay": -1.119
           },
           "subtitle": "Throwing a Molotov."
         },
@@ -9266,7 +9266,7 @@
             "target": "Any",
             "concept": "GrenadeCareful",
             "responseContext": "foo:0",
-            "delay": "-1.392"
+            "delay": -1.392
           },
           "subtitle": "MOLOTOV COMING!"
         },
@@ -9276,7 +9276,7 @@
             "target": "Any",
             "concept": "GrenadeCareful",
             "responseContext": "foo:0",
-            "delay": "-0.870"
+            "delay": -0.87
           },
           "subtitle": "FIRE COMING!"
         }
@@ -9291,7 +9291,7 @@
             "target": "Any",
             "concept": "GrenadeCareful",
             "responseContext": "foo:0",
-            "delay": "-0.642"
+            "delay": -0.642
           },
           "subtitle": "GRENADE!"
         },
@@ -9301,7 +9301,7 @@
             "target": "Any",
             "concept": "GrenadeCareful",
             "responseContext": "foo:0",
-            "delay": "-1.197"
+            "delay": -1.197
           },
           "subtitle": "Throwing a pipe bomb."
         },
@@ -9311,7 +9311,7 @@
             "target": "Any",
             "concept": "GrenadeCareful",
             "responseContext": "foo:0",
-            "delay": "-0.996"
+            "delay": -0.996
           },
           "subtitle": "PIPE BOMB OUT!"
         },
@@ -9321,7 +9321,7 @@
             "target": "Any",
             "concept": "GrenadeCareful",
             "responseContext": "foo:0",
-            "delay": "-0.712"
+            "delay": -0.712
           },
           "subtitle": "GRENADE!"
         }
@@ -9336,7 +9336,7 @@
             "target": "Any",
             "concept": "GrenadeCareful",
             "responseContext": "foo:0",
-            "delay": "-1.702"
+            "delay": -1.702
           },
           "subtitle": "Heads up! Bile incoming!"
         },
@@ -9346,7 +9346,7 @@
             "target": "Any",
             "concept": "GrenadeCareful",
             "responseContext": "foo:0",
-            "delay": "-1.165"
+            "delay": -1.165
           },
           "subtitle": "Bile incoming!"
         },
@@ -9356,7 +9356,7 @@
             "target": "Any",
             "concept": "GrenadeCareful",
             "responseContext": "foo:0",
-            "delay": "-1.530"
+            "delay": -1.53
           },
           "subtitle": "Here comes somer boomer bile!"
         }
@@ -9371,7 +9371,7 @@
             "target": "Any",
             "concept": "GrenadeCareful",
             "responseContext": "foo:0",
-            "delay": "-1.702"
+            "delay": -1.702
           },
           "subtitle": "Heads up! Bile incoming!"
         }
@@ -9407,7 +9407,7 @@
             "target": "Any",
             "concept": "PlayerNiceShot",
             "responseContext": "foo:0",
-            "delay": "-0.465"
+            "delay": -0.465
           },
           "subtitle": "Got it!"
         },
@@ -9417,7 +9417,7 @@
             "target": "Any",
             "concept": "PlayerNiceShot",
             "responseContext": "foo:0",
-            "delay": "-0.976"
+            "delay": -0.976
           },
           "subtitle": "Taken care of."
         },
@@ -9427,7 +9427,7 @@
             "target": "Any",
             "concept": "PlayerNiceShot",
             "responseContext": "foo:0",
-            "delay": "-0.940"
+            "delay": -0.94
           },
           "subtitle": "That was mine."
         },
@@ -9437,7 +9437,7 @@
             "target": "Any",
             "concept": "PlayerNiceShot",
             "responseContext": "foo:0",
-            "delay": "-0.630"
+            "delay": -0.63
           },
           "subtitle": "Dead."
         },
@@ -9447,7 +9447,7 @@
             "target": "Any",
             "concept": "PlayerNiceShot",
             "responseContext": "foo:0",
-            "delay": "-0.730"
+            "delay": -0.73
           },
           "subtitle": "Got 'em."
         },
@@ -9457,7 +9457,7 @@
             "target": "Any",
             "concept": "PlayerNiceShot",
             "responseContext": "foo:0",
-            "delay": "-1.380"
+            "delay": -1.38
           },
           "subtitle": "Got 'em."
         },
@@ -9467,7 +9467,7 @@
             "target": "Any",
             "concept": "PlayerNiceShot",
             "responseContext": "foo:0",
-            "delay": "-0.886"
+            "delay": -0.886
           },
           "subtitle": "Kicked it."
         },
@@ -9477,7 +9477,7 @@
             "target": "Any",
             "concept": "PlayerNiceShot",
             "responseContext": "foo:0",
-            "delay": "-0.931"
+            "delay": -0.931
           },
           "subtitle": "Kicked it's ass."
         }
@@ -10055,7 +10055,7 @@
             "target": "Self",
             "concept": "PlayerKillThatLight",
             "responseContext": "foo:0",
-            "delay": "-1.093"
+            "delay": -1.093
           },
           "subtitle": "That sounds like a Witch."
         },
@@ -10065,7 +10065,7 @@
             "target": "Self",
             "concept": "PlayerKillThatLight",
             "responseContext": "foo:0",
-            "delay": "-1.542"
+            "delay": -1.542
           },
           "subtitle": "I hear a witch crying."
         },
@@ -10075,7 +10075,7 @@
             "target": "Self",
             "concept": "PlayerKillThatLight",
             "responseContext": "foo:0",
-            "delay": "-2.327"
+            "delay": -2.327
           },
           "subtitle": "I'm gonna give that witch something to cry about."
         },
@@ -10085,7 +10085,7 @@
             "target": "Self",
             "concept": "PlayerKillThatLight",
             "responseContext": "foo:0",
-            "delay": "-1.363"
+            "delay": -1.363
           },
           "subtitle": "Listen up, a witch!"
         }
@@ -10100,7 +10100,7 @@
             "target": "Self",
             "concept": "PlayerKillThatLight",
             "responseContext": "foo:0",
-            "delay": "-2.238"
+            "delay": -2.238
           },
           "subtitle": "She doesn't sound happy."
         },
@@ -10110,7 +10110,7 @@
             "target": "Self",
             "concept": "PlayerKillThatLight",
             "responseContext": "foo:0",
-            "delay": "-2.020"
+            "delay": -2.02
           },
           "subtitle": "What the hell's with that crying?"
         },
@@ -10120,7 +10120,7 @@
             "target": "Self",
             "concept": "PlayerKillThatLight",
             "responseContext": "foo:0",
-            "delay": "-2.366"
+            "delay": -2.366
           },
           "subtitle": "We should steer clear of her."
         }
@@ -10194,7 +10194,7 @@
             "target": "any",
             "concept": "WorldIntroC31",
             "responseContext": "foo:0",
-            "delay": "5"
+            "delay": 5.0
           },
           "subtitle": "Blank"
         }
@@ -10209,7 +10209,7 @@
             "target": "orator",
             "concept": "C5M1_intro001",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Blank"
         }
@@ -10941,7 +10941,7 @@
             "target": "Any",
             "concept": "Death2Left",
             "responseContext": "foo:0",
-            "delay": "-0.679"
+            "delay": -0.679
           },
           "subtitle": "Coach!"
         },
@@ -10951,7 +10951,7 @@
             "target": "Any",
             "concept": "Death2Left",
             "responseContext": "foo:0",
-            "delay": "-0.844"
+            "delay": -0.844
           },
           "subtitle": "Coach!"
         }
@@ -10966,7 +10966,7 @@
             "target": "Any",
             "concept": "Death2Left",
             "responseContext": "foo:0",
-            "delay": "-0.528"
+            "delay": -0.528
           },
           "subtitle": "Nick!"
         },
@@ -10976,7 +10976,7 @@
             "target": "Any",
             "concept": "Death2Left",
             "responseContext": "foo:0",
-            "delay": "-0.420"
+            "delay": -0.42
           },
           "subtitle": "Nick!"
         }
@@ -10991,7 +10991,7 @@
             "target": "Any",
             "concept": "Death2Left",
             "responseContext": "foo:0",
-            "delay": "-0.614"
+            "delay": -0.614
           },
           "subtitle": "Ellis!"
         },
@@ -11001,7 +11001,7 @@
             "target": "Any",
             "concept": "Death2Left",
             "responseContext": "foo:0",
-            "delay": "-0.679"
+            "delay": -0.679
           },
           "subtitle": "Ellis!"
         }
@@ -11850,7 +11850,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.860"
+            "delay": -1.86
           },
           "subtitle": "Uh, yeah, yeah, I'm okay."
         },
@@ -11860,7 +11860,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-0.909"
+            "delay": -0.909
           },
           "subtitle": "I think I'm okay."
         },
@@ -11870,7 +11870,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.412"
+            "delay": -1.412
           },
           "subtitle": "Guess I feel all right."
         },
@@ -11880,7 +11880,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.820"
+            "delay": -1.82
           },
           "subtitle": "Don't worry about me."
         },
@@ -11890,7 +11890,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-0.715"
+            "delay": -0.715
           },
           "subtitle": "I'm good."
         },
@@ -11900,7 +11900,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-0.780"
+            "delay": -0.78
           },
           "subtitle": "Is it bad?"
         },
@@ -11910,7 +11910,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.165"
+            "delay": -1.165
           },
           "subtitle": "I don't know, get me up."
         },
@@ -11920,7 +11920,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-2.365"
+            "delay": -2.365
           },
           "subtitle": "Oh shit, I don't know."
         },
@@ -11930,7 +11930,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.793"
+            "delay": -1.793
           },
           "subtitle": "Well how do I look?"
         },
@@ -11940,7 +11940,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-0.780"
+            "delay": -0.78
           },
           "subtitle": "Is it bad?"
         },
@@ -11950,7 +11950,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.563"
+            "delay": -1.563
           },
           "subtitle": "I'm a little bit of a mess."
         },
@@ -11960,7 +11960,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-2.237"
+            "delay": -2.237
           },
           "subtitle": "This is great, nah, this is great.  I'm good."
         },
@@ -11970,7 +11970,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-3.152"
+            "delay": -3.152
           },
           "subtitle": "Blah blah blah, just please get me up."
         },
@@ -11980,7 +11980,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.438"
+            "delay": -1.438
           },
           "subtitle": "Does my hair look good?"
         },
@@ -11990,7 +11990,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.675"
+            "delay": -1.675
           },
           "subtitle": "I have no idea."
         },
@@ -12000,7 +12000,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.914"
+            "delay": -1.914
           },
           "subtitle": "I don't know, bad?"
         },
@@ -12010,7 +12010,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.393"
+            "delay": -1.393
           },
           "subtitle": "You tell me!"
         },
@@ -12020,7 +12020,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.121"
+            "delay": -1.121
           },
           "subtitle": "Shitty."
         },
@@ -12030,7 +12030,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.488"
+            "delay": -1.488
           },
           "subtitle": "Broke."
         },
@@ -12040,7 +12040,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.143"
+            "delay": -1.143
           },
           "subtitle": "Okay I guess."
         },
@@ -12050,7 +12050,7 @@
             "target": "From",
             "concept": "ReviveFriendDownFinal",
             "responseContext": "foo:0",
-            "delay": "-1.212"
+            "delay": -1.212
           },
           "subtitle": "I've been better."
         }
@@ -12192,7 +12192,7 @@
             "target": "Subject",
             "concept": "ReviveFriendDown",
             "responseContext": "foo:0",
-            "delay": "-0.633"
+            "delay": -0.633
           },
           "subtitle": "You okay?"
         },
@@ -12202,7 +12202,7 @@
             "target": "Subject",
             "concept": "ReviveFriendDown",
             "responseContext": "foo:0",
-            "delay": "-0.899"
+            "delay": -0.899
           },
           "subtitle": "How are you feeling?"
         },
@@ -12212,7 +12212,7 @@
             "target": "Subject",
             "concept": "ReviveFriendDown",
             "responseContext": "foo:0",
-            "delay": "-0.661"
+            "delay": -0.661
           },
           "subtitle": "Can you make it?"
         },
@@ -12222,7 +12222,7 @@
             "target": "Subject",
             "concept": "ReviveFriendDown",
             "responseContext": "foo:0",
-            "delay": "-0.883"
+            "delay": -0.883
           },
           "subtitle": "How bad is it?"
         },
@@ -12232,7 +12232,7 @@
             "target": "Subject",
             "concept": "ReviveFriendDown",
             "responseContext": "foo:0",
-            "delay": "-0.573"
+            "delay": -0.573
           },
           "subtitle": "What's up?"
         },
@@ -12242,7 +12242,7 @@
             "target": "Subject",
             "concept": "ReviveFriendDown",
             "responseContext": "foo:0",
-            "delay": "-1.501"
+            "delay": -1.501
           },
           "subtitle": "Are you done laying around now?"
         },
@@ -12252,7 +12252,7 @@
             "target": "Subject",
             "concept": "ReviveFriendDown",
             "responseContext": "foo:0",
-            "delay": "-0.811"
+            "delay": -0.811
           },
           "subtitle": "Ready to get up?"
         },
@@ -12262,7 +12262,7 @@
             "target": "Subject",
             "concept": "ReviveFriendDown",
             "responseContext": "foo:0",
-            "delay": "-1.017"
+            "delay": -1.017
           },
           "subtitle": "What's up with that?"
         },
@@ -12272,7 +12272,7 @@
             "target": "Subject",
             "concept": "ReviveFriendDown",
             "responseContext": "foo:0",
-            "delay": "-1.392"
+            "delay": -1.392
           },
           "subtitle": "So what is wrong with you?"
         },
@@ -12282,7 +12282,7 @@
             "target": "Subject",
             "concept": "ReviveFriendDown",
             "responseContext": "foo:0",
-            "delay": "-0.688"
+            "delay": -0.688
           },
           "subtitle": "Can you make it?"
         },
@@ -12292,7 +12292,7 @@
             "target": "Subject",
             "concept": "ReviveFriendDown",
             "responseContext": "foo:0",
-            "delay": "-1.771"
+            "delay": -1.771
           },
           "subtitle": "Oh come on. You can make it."
         },
@@ -12302,7 +12302,7 @@
             "target": "Subject",
             "concept": "ReviveFriendDown",
             "responseContext": "foo:0",
-            "delay": "-0.936"
+            "delay": -0.936
           },
           "subtitle": "Can't you suck it up?"
         },
@@ -12312,7 +12312,7 @@
             "target": "Subject",
             "concept": "ReviveFriendDown",
             "responseContext": "foo:0",
-            "delay": "-1.458"
+            "delay": -1.458
           },
           "subtitle": "Does it hurt as bad as it looks?"
         }
@@ -12519,7 +12519,7 @@
             "target": "mechanic",
             "concept": "_C1M1_ElevatorHello03a",
             "responseContext": "foo:0",
-            "delay": "-1.195"
+            "delay": -1.195
           },
           "subtitle": "My name's Rochelle. You?"
         }
@@ -12534,7 +12534,7 @@
             "target": "mechanic",
             "concept": "_C1M1_ElevatorHello03d",
             "responseContext": "foo:0",
-            "delay": "-0.555"
+            "delay": -0.555
           },
           "subtitle": "Rochelle."
         }
@@ -12549,7 +12549,7 @@
             "target": "gambler",
             "concept": "_C1M1_ElevatorHello04c",
             "responseContext": "foo:0",
-            "delay": "-1.932"
+            "delay": -1.932
           },
           "subtitle": "Hey. Name's Rochelle, you?"
         }
@@ -12564,7 +12564,7 @@
             "target": "mechanic",
             "concept": "_C1M1_ElevatorHello05b",
             "responseContext": "foo:0",
-            "delay": "-1.932"
+            "delay": -1.932
           },
           "subtitle": "Hey. Name's Rochelle, you?"
         }
@@ -12579,7 +12579,7 @@
             "target": "mechanic",
             "concept": "_c1m4startelevator4c",
             "responseContext": "foo:0",
-            "delay": "-1.118"
+            "delay": -1.118
           },
           "subtitle": "What's on your mind, Ellis?"
         }
@@ -12594,7 +12594,7 @@
             "target": "mechanic",
             "concept": "_c1m4startelevator5a",
             "responseContext": "foo:0",
-            "delay": "-5.233"
+            "delay": -5.233
           },
           "subtitle": "Well, it's a plan. I don't know if it's a GOOD plan. But it IS a plan."
         },
@@ -12604,7 +12604,7 @@
             "target": "mechanic",
             "concept": "_c1m4startelevator5a",
             "responseContext": "foo:0",
-            "delay": "-5.805"
+            "delay": -5.805
           },
           "subtitle": "OK, so plan A is we go find this car. Plan b is we\u0085 wait here in this mall and die."
         }
@@ -12628,7 +12628,7 @@
             "target": "self",
             "concept": "_C2M2_Kiddie02",
             "responseContext": "foo:0",
-            "delay": "0.3"
+            "delay": 0.3
           },
           "subtitle": "I wish I could be that happy."
         },
@@ -12638,7 +12638,7 @@
             "target": "mechanic",
             "concept": "_C2M2_Kiddie03",
             "responseContext": "foo:0",
-            "delay": "0.3"
+            "delay": 0.3
           },
           "subtitle": "I wish I could be that happy."
         }
@@ -12671,7 +12671,7 @@
             "target": "any",
             "concept": "_C4_BigStormHits02",
             "responseContext": "foo:0",
-            "delay": "0.04"
+            "delay": 0.04
           },
           "subtitle": "STORM!"
         },
@@ -12681,7 +12681,7 @@
             "target": "any",
             "concept": "_C4_BigStormHits02",
             "responseContext": "foo:0",
-            "delay": "0.04"
+            "delay": 0.04
           },
           "subtitle": "STORM'S COMING!"
         },
@@ -12691,7 +12691,7 @@
             "target": "any",
             "concept": "_C4_BigStormHits02",
             "responseContext": "foo:0",
-            "delay": "0.04"
+            "delay": 0.04
           },
           "subtitle": "OH, STORM'S STARTING!"
         }
@@ -12724,7 +12724,7 @@
             "target": "gambler",
             "concept": "_c4m1Intro11",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "We just need to grab some diesel."
         }
@@ -12739,7 +12739,7 @@
             "target": "self",
             "concept": "_c4m1Intro10",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "This should be easy."
         }
@@ -12794,7 +12794,7 @@
             "target": "subject",
             "concept": "_c4m2_streetblocked02",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": ""
         }
@@ -12840,7 +12840,7 @@
             "target": "any",
             "concept": "_introc1m1a03",
             "responseContext": "foo:0",
-            "delay": "-1"
+            "delay": -1.0
           },
           "subtitle": "HEYYYYY! COME BACK!"
         }
@@ -12855,7 +12855,7 @@
             "target": "all",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-2.638"
+            "delay": -2.638
           },
           "subtitle": "[Coughing from smoke]"
         },
@@ -12865,7 +12865,7 @@
             "target": "all",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-1.859"
+            "delay": -1.859
           },
           "subtitle": "[Coughing from smoke]"
         },
@@ -12875,7 +12875,7 @@
             "target": "all",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-1.290"
+            "delay": -1.29
           },
           "subtitle": "[Coughing from smoke]"
         },
@@ -12885,7 +12885,7 @@
             "target": "all",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-1.169"
+            "delay": -1.169
           },
           "subtitle": "[Coughing from smoke]"
         }
@@ -12900,7 +12900,7 @@
             "target": "producer",
             "concept": "C1M1Cough",
             "responseContext": "foo:0",
-            "delay": "-2.467"
+            "delay": -2.467
           },
           "subtitle": "I don't like this. Get ready\u0085"
         }
@@ -12915,7 +12915,7 @@
             "target": "mechanic",
             "concept": "C1M1_ElevatorHello01_02C5",
             "responseContext": "foo:0",
-            "delay": "-1.932"
+            "delay": -1.932
           },
           "subtitle": "Hey. Name's Rochelle, you?"
         }
@@ -12930,7 +12930,7 @@
             "target": "gambler",
             "concept": "C1M1_ElevatorHello01_02C7",
             "responseContext": "foo:0",
-            "delay": "-0.858"
+            "delay": -0.858
           },
           "subtitle": "Who'd we lose?"
         }
@@ -12954,7 +12954,7 @@
             "target": "producer",
             "concept": "C1M1_ElevatorHello01_02M4",
             "responseContext": "foo:0",
-            "delay": "-0.648"
+            "delay": -0.648
           },
           "subtitle": "Rochelle."
         }
@@ -12969,7 +12969,7 @@
             "target": "producer",
             "concept": "C1M1_ElevatorHello01_02M5",
             "responseContext": "foo:0",
-            "delay": "-0.858"
+            "delay": -0.858
           },
           "subtitle": "Who'd we lose?"
         }
@@ -12984,7 +12984,7 @@
             "target": "coach",
             "concept": "C1M1_ElevatorHello01_02M6",
             "responseContext": "foo:0",
-            "delay": "-1.034"
+            "delay": -1.034
           },
           "subtitle": "I think it was Ellis."
         }
@@ -12999,7 +12999,7 @@
             "target": "producer",
             "concept": "C1M1_ElevatorHello01_03CM4",
             "responseContext": "foo:0",
-            "delay": "-0.648"
+            "delay": -0.648
           },
           "subtitle": "Rochelle."
         }
@@ -13014,7 +13014,7 @@
             "target": "producer",
             "concept": "C1M1_ElevatorHello01_03CM5",
             "responseContext": "foo:0",
-            "delay": "-0.858"
+            "delay": -0.858
           },
           "subtitle": "Who'd we lose?"
         }
@@ -13029,7 +13029,7 @@
             "target": "gambler",
             "concept": "C1M1_ElevatorHello01_03CM6",
             "responseContext": "foo:0",
-            "delay": "-1.592"
+            "delay": -1.592
           },
           "subtitle": "I think he just said it was Coach."
         }
@@ -13065,7 +13065,7 @@
             "target": "mechanic",
             "concept": "C1M2SafeRoomc1",
             "responseContext": "foo:0",
-            "delay": "-2.170"
+            "delay": -2.17
           },
           "subtitle": "I can't believe I'm stranded in Savannah."
         }
@@ -13089,7 +13089,7 @@
             "target": "gambler",
             "concept": "C1M3SafeRoom2a",
             "responseContext": "foo:0",
-            "delay": "-3.646"
+            "delay": -3.646
           },
           "subtitle": "Alright. So\u0085 it's a bit quiet. I still say we should check it out."
         },
@@ -13121,7 +13121,7 @@
             "target": "coach",
             "concept": "C1M4NearFinale03b",
             "responseContext": "foo:0",
-            "delay": "-3.525"
+            "delay": -3.525
           },
           "subtitle": "I'm not getting a strong \"we're getting rescued\" vibe here."
         }
@@ -13154,7 +13154,7 @@
             "target": "mechanic",
             "concept": "C1M4NearFinale03c",
             "responseContext": "foo:0",
-            "delay": "-1.365"
+            "delay": -1.365
           },
           "subtitle": "I don't see anyone."
         }
@@ -13169,7 +13169,7 @@
             "target": "mechanic",
             "concept": "C1M4SafeRoom2b1",
             "responseContext": "foo:0",
-            "delay": "-1.823"
+            "delay": -1.823
           },
           "subtitle": "Anybody know who the race car guy is?"
         }
@@ -13184,7 +13184,7 @@
             "target": "mechanic",
             "concept": "C1M4SafeRoom2b3",
             "responseContext": "foo:0",
-            "delay": "-2.719"
+            "delay": -2.719
           },
           "subtitle": "Jimmy Gibbs Jr\u0085. Yay."
         }
@@ -13212,7 +13212,7 @@
             "target": "Mechanic",
             "concept": "C2M1Intro005",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Well, the ride was nice while it lasted."
         }
@@ -13266,7 +13266,7 @@
             "target": "any",
             "concept": "_C4M5_FinaleStart01",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Sign is on!"
         }
@@ -13356,7 +13356,7 @@
             "target": "producer",
             "concept": "WorldIntroC31a4",
             "responseContext": "foo:0",
-            "delay": "-6.296"
+            "delay": -6.296
           },
           "subtitle": "That's true. If I had a pick a low point in the flight, it was probably when he stopped flying the chopper and attacked us."
         }
@@ -13380,7 +13380,7 @@
             "target": "gambler",
             "concept": "WorldIntroC31c4",
             "responseContext": "foo:0",
-            "delay": "-2.381"
+            "delay": -2.381
           },
           "subtitle": "HE WAS FLYING THE HELICOPTER"
         }
@@ -13395,7 +13395,7 @@
             "target": "prioducer",
             "concept": "WorldIntroC31e2",
             "responseContext": "foo:0",
-            "delay": "-4.802"
+            "delay": -4.802
           },
           "subtitle": "Well, we aren't CEDA or the military, so I guess we're welcome."
         },
@@ -13405,7 +13405,7 @@
             "target": "mechanic",
             "concept": "WorldIntroC31e2a",
             "responseContext": "foo:0",
-            "delay": "-3.487"
+            "delay": -3.487
           },
           "subtitle": "When they say stay out, I'm sure they mean someone else."
         },
@@ -13424,7 +13424,7 @@
             "target": "coach",
             "concept": "WorldIntroC31e3",
             "responseContext": "foo:0",
-            "delay": "-1.530"
+            "delay": -1.53
           },
           "subtitle": "Let's visit, they seem nice."
         }
@@ -13485,7 +13485,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Chainsaw here\u0085"
         },
@@ -13495,7 +13495,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Chainsaw here\u0085"
         }
@@ -13510,7 +13510,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Chainsaw here\u0085"
         },
@@ -13520,7 +13520,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Chainsaw here\u0085"
         }
@@ -13535,7 +13535,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Cricket bat here."
         },
@@ -13545,7 +13545,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Cricket bat here."
         }
@@ -13560,7 +13560,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Cricket bat here."
         },
@@ -13570,7 +13570,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Cricket bat here."
         }
@@ -13585,7 +13585,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Crowbar."
         },
@@ -13595,7 +13595,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Weapons over here!"
         }
@@ -13610,7 +13610,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Crowbar."
         },
@@ -13620,7 +13620,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Weapons over here!"
         }
@@ -13635,7 +13635,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Guitar here."
         },
@@ -13645,7 +13645,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Guitar here."
         }
@@ -13660,7 +13660,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Guitar here."
         },
@@ -13670,7 +13670,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Guitar here."
         }
@@ -13685,7 +13685,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Katana here."
         },
@@ -13695,7 +13695,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Katana here."
         }
@@ -13710,7 +13710,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Katana here."
         },
@@ -13720,7 +13720,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Katana here."
         }
@@ -13735,7 +13735,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Laser sights here."
         },
@@ -13745,7 +13745,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Laser sights here."
         },
@@ -13755,7 +13755,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Laser sights here."
         }
@@ -13770,7 +13770,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Laser sights here."
         },
@@ -13780,7 +13780,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Laser sights here."
         },
@@ -13790,7 +13790,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Laser sights here."
         }
@@ -13805,7 +13805,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Machete here\u0085"
         },
@@ -13815,7 +13815,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Got a machete."
         }
@@ -13830,7 +13830,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Machete here\u0085"
         },
@@ -13840,7 +13840,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Got a machete."
         }
@@ -13855,7 +13855,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Weapons over here!"
         },
@@ -13865,7 +13865,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Magnum here!"
         }
@@ -13880,7 +13880,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Weapons over here!"
         },
@@ -13890,7 +13890,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Magnum here!"
         }
@@ -13932,7 +13932,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Nightstick here\u0085"
         },
@@ -13942,7 +13942,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Nightstick here\u0085"
         }
@@ -13957,7 +13957,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Nightstick here\u0085"
         },
@@ -13967,7 +13967,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Nightstick here\u0085"
         }
@@ -13982,7 +13982,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Weapons over here!"
         },
@@ -13992,7 +13992,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Weapons over here!"
         },
@@ -14002,7 +14002,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "All right weapons!"
         },
@@ -14012,7 +14012,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "We have guns here!"
         }
@@ -14027,7 +14027,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Weapons over here!"
         },
@@ -14037,7 +14037,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "Weapons over here!"
         },
@@ -14047,7 +14047,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "All right weapons!"
         },
@@ -14057,7 +14057,7 @@
             "target": "any",
             "concept": "_SpotStuffResponse",
             "responseContext": "foo:0",
-            "delay": "0.01"
+            "delay": 0.01
           },
           "subtitle": "We have guns here!"
         }

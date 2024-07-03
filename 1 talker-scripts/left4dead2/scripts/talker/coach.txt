@@ -4648,7 +4648,7 @@ Rule PlayerRemarkC1M1SearchRoomsCoach
 
 Response PlayerRemarkC1M1ThroughThisDoorCoach
 {
-	scene "scenes/Coach/MiscDirectional19.vcd"  then any C1M1Cough                                        C foo:0 -0.932 //Through this door!
+	scene "scenes/Coach/MiscDirectional19.vcd"  then any C1M1Cough foo:0 -0.932 //Through this door!
 }
 Rule PlayerRemarkC1M1ThroughThisDoorCoach
 {

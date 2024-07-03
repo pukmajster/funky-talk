@@ -1,15 +1,7 @@
 import os
 import json
 
-# These tell us to which survivor each line belongs to.
-playerNames = [
-  #l4d1
-  "TeenGirl", "NamVet", "Biker", "Manager",
-  #l4d2
-  "Coach", "Mechanic", "Gambler", "Producer"
-]
-
-scriptsPath = "./source-files/"
+scriptsPath = "./1 talker-scripts/"
 filesToCheck = [""]
 filesToCheck.clear()
 
@@ -284,7 +276,7 @@ for file in filesToCheck:
 
   # Write file to disk
   # I used to write all the data into one file and that worked great until the gigabytes took our land.
-  fPath = file.replace("source-files", "transformed-files") 
+  fPath = file.replace("1 talker-files", "2 talker-json") 
   fPath = fPath.split("/")
   fileName = fPath.pop()
   fPath = "/".join(fPath) + "/"
