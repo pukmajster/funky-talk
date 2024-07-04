@@ -12,12 +12,9 @@ for root, dirs, files in os.walk(scriptsPath):
   for file in files:
     print("Checking file: " + file)
     if file.endswith(".txt"):
-      #if "talker" in root:
-      fullPath = os.path.join(root, file)
-      filesToCheck.append(fullPath)
-      print("Adding file: " + fullPath)
-
-
+      if "talker" in root:
+        fullPath = os.path.join(root, file)
+        filesToCheck.append(fullPath)
 
 def remove_values_from_list(the_list, val):
    return [value for value in the_list if value != val]
@@ -275,8 +272,6 @@ for file in filesToCheck:
       elif blockType == "rule":
         rule = parseRuleBlock(collectedLines)
         rules[rule["name"]] = rule
-      
-      
 
   print("------ Writing file ----------------")
 
