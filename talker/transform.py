@@ -1,17 +1,23 @@
 import os
 import json
 
-scriptsPath = "./1 talker-scripts/"
+scriptsPath = "talker/source/"
 filesToCheck = [""]
 filesToCheck.clear()
+
+print("Starting transform.py")
 
 # Walk through the scripts folder and get all the files that are present within the "talker" directory
 for root, dirs, files in os.walk(scriptsPath):
   for file in files:
+    print("Checking file: " + file)
     if file.endswith(".txt"):
-      if "talker" in root:
-        fullPath = os.path.join(root, file)
-        filesToCheck.append(fullPath)
+      #if "talker" in root:
+      fullPath = os.path.join(root, file)
+      filesToCheck.append(fullPath)
+      print("Adding file: " + fullPath)
+
+
 
 def remove_values_from_list(the_list, val):
    return [value for value in the_list if value != val]
@@ -276,7 +282,7 @@ for file in filesToCheck:
 
   # Write file to disk
   # I used to write all the data into one file and that worked great until the gigabytes took our land.
-  fPath = file.replace("1 talker-files", "2 talker-json") 
+  fPath = file.replace("source", "transformed") 
   fPath = fPath.split("/")
   fileName = fPath.pop()
   fPath = "/".join(fPath) + "/"
