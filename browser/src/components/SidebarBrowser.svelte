@@ -1,5 +1,6 @@
 <script lang="ts">
   import talkers from "../lib/talkers";
+  import talker2 from "../lib/talkers2";
   import { sidebarSelectedCharacter } from "../state";
   import SidebarResponse from "./SidebarResponse.svelte";
 
@@ -24,14 +25,14 @@
 
   <div class="flex flex-col gap-0 overflow-y-scroll">
     {#if true}
-      {@const talker = talkers[$sidebarSelectedCharacter]}
-      {@const responses = Object.entries(talker.responses).filter(([key, value]) => {
+      {@const responses = Object.entries(talker2.responses).filter(([key, value]) => {
         const queryPresentInResponseName = key.toLowerCase().includes(searchQuery.toLowerCase());
+        const responseMatchesCharacter = key.toLocaleLowerCase().endsWith($sidebarSelectedCharacter.toLowerCase());
 
         let matchesInSubtitles = 0;
         
-        for( const scene in talker?.responses[key]?.scenes){
-          const sceneSubtitle = talker.responses[key]?.scenes[scene]?.subtitle;
+        for( const scene in talker2.responses[key]?.scenes){
+          const sceneSubtitle = talker2.responses[key]?.scenes[scene]?.subtitle;
 
           if(!sceneSubtitle) continue;
 
@@ -41,9 +42,8 @@
           }
         }
 
-        return queryPresentInResponseName || matchesInSubtitles > 0;
+        return (queryPresentInResponseName || matchesInSubtitles > 0 ) && responseMatchesCharacter;
       } )}
-
 
       {#each responses as [responseName, response], i (responseName)}
         <SidebarResponse response={response} />
@@ -53,7 +53,3 @@
   </div>
 </div>
 
-
-<style>
-
-</style>

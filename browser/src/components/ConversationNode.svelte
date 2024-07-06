@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { ConversationResponse } from "../lib/conversations";
   import talkers, { type TalkerCharacter } from "../lib/talkers";
+  import talker2 from "../lib/talkers2";
   import type { Response } from "../types/talker";
 
   export let node: ConversationResponse;
@@ -8,7 +9,7 @@
 
   $: character = node.character
   $: responseName = node.responseName
-  $: response = talkers[character].responses[responseName] as Response
+  $: response = talker2.responses[responseName] as Response
 
   const gap = 12;
 </script>
@@ -28,11 +29,13 @@
       <span class="opacity-50">{response.name}</span>
     </div>
   
-    {#each Object.entries(response?.scenes) as [sceneName, scene]}
-      <div class="">
-        <p>- {scene?.subtitle}</p>
-      </div>
-    {/each}
+    {#if response.scenes?.length > 0}
+      {#each Object.entries(response?.scenes) as [sceneName, scene]}
+        <div class="">
+          <p>- {scene?.subtitle}</p>
+        </div>
+      {/each}
+    {/if}
   </div>
 
   <div>

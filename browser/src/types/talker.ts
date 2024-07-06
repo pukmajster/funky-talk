@@ -30,7 +30,7 @@ export interface Scene {
 
 export interface Rule {
   name: string;
-  criteria: Criterion[];
+  criteria: string[];
   applyContext?: string;
   applyContextToWorld?: boolean;
   response: string;
