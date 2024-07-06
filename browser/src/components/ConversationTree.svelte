@@ -1,7 +1,7 @@
 <script lang="ts">
   import { makeConversationTree } from "../lib/conversations";
   import { sidebarSelectedResponse } from "../state";
-  import ConversationNode from "./ConversationNode.svelte";
+  import ConversationNode from "./ConversationNode/ConversationNode.svelte";
 
   $: [character, responseName] = $sidebarSelectedResponse!;
   $: tree = makeConversationTree(character, responseName);

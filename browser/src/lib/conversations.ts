@@ -3,11 +3,13 @@ import talker2, { type TalkerCharacter } from "./talkers2";
 
 export type ConversationResponse = {
   character: TalkerCharacter;
-  responseName: string;
+  responseName: keyof typeof talker2.responses;
 
   // If true, implies that the response is a parent node in the conversation tree
   // and is only displaying a small portion of all possible child responses
   isParentNode?: boolean;
+
+  ruleCriteria?: string[];
 
   children: ConversationResponse[];
 };
@@ -24,7 +26,7 @@ function responseNameToCharacter(responseName: string) {
   return null;
 }
 
-const allCharacters: TalkerCharacter[] = [
+export const allCharacters: TalkerCharacter[] = [
   "Gambler",
   "Coach",
   "Mechanic",
@@ -54,7 +56,7 @@ function findConversationResponseChildren(
   depth = 0
 ) {
   // If we've reached a depth of 5, we stop looking for children
-  if (depth >= 2) {
+  if (depth >= 6) {
     return;
   }
 
@@ -62,7 +64,21 @@ function findConversationResponseChildren(
 
   const response: Response = talker2.responses[thisResponseName];
 
-  for (const scene of response.scenes) {
+  // Prevent duplicate subtitles
+  const evaluatedSubtitles: string[] = [];
+
+  // Take the scene list and remove any duplicate followup scenes that share the same target and concept
+  const uniqueScenes = response.scenes.filter(
+    (scene, index, self) =>
+      index ===
+      self.findIndex(
+        (s) =>
+          s.then?.target === scene.then?.target &&
+          s.then?.concept === scene.then?.concept
+      )
+  );
+
+  for (const scene of uniqueScenes) {
     if (scene?.then) {
       const { target, concept } = scene.then;
 
@@ -169,6 +185,13 @@ function findConversationResponseChildren(
           continue;
         }
 
+        if (!possibleTargets.includes(character)) {
+          console.log(
+            `[CONVERSATION TREE] Skipping response ${response.name} because the target character is not recognized`
+          );
+          continue;
+        }
+
         if (character)
           if (!responseBelongsToCharacter(response.name, character)) {
             console.log(
@@ -182,9 +205,10 @@ function findConversationResponseChildren(
         );
 
         const childConversationResponse: ConversationResponse = {
-          character: responseNameToCharacter(response.name) as TalkerCharacter,
+          character: character as TalkerCharacter,
           responseName: response.name,
           isParentNode: false,
+          ruleCriteria: rule.criteria,
           children: [],
         };
 
@@ -193,37 +217,6 @@ function findConversationResponseChildren(
         // Recursively find all children of the child response
         findConversationResponseChildren(childConversationResponse, depth + 1);
       }
-
-      // for (const target of possibleTargets) {
-      //   // Combine the target and response name to get the full response name stored
-      //   // in talker scripts
-      //   //
-      //   // Example:
-      //   // Response name: "PlayerWorldIntroC31"
-      //   // Target: "Couch"
-      //   //
-      //   // Full response name (Response name + Target) : "PlayerWorldIntroC31Couch"
-      //   //                                                ^ responseName     ^ target
-      //   const lookingForResponseNameWithTarget = lookingForResponse + target;
-
-      //   console.log(
-      //     `[CONVERSATION TREE] Testing target(${target}) for response ${lookingForResponseNameWithTarget}`
-      //   );
-
-      //   if (lookingForResponseNameWithTarget in talker2.responses) {
-      //     const childConversationResponse: ConversationResponse = {
-      //       character: target,
-      //       responseName: lookingForResponseNameWithTarget,
-      //       isParentNode: false,
-      //       children: [],
-      //     };
-
-      //     node.children.push(childConversationResponse);
-
-      //     // Recursively find all children of the child response
-      //     findConversationResponseChildren(childConversationResponse);
-      //   }
-      // }
     }
   }
 }
@@ -232,6 +225,8 @@ export function makeConversationTree(
   thisTalker: TalkerCharacter,
   thisResponseName: string
 ) {
+  const response = talker2.responses[thisResponseName];
+
   // This is the base node of the conversation tree
   // We then proceed to find all of its parents and children
   const baseNode: ConversationResponse = {

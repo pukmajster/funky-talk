@@ -1,5 +1,5 @@
 <script lang="ts">
-  import talkers from "../lib/talkers";
+  import { allCharacters } from "../lib/conversations";
   import talker2 from "../lib/talkers2";
   import { sidebarSelectedCharacter } from "../state";
   import SidebarResponse from "./SidebarResponse.svelte";
@@ -10,7 +10,7 @@
 <div class="w-[400px] max-h-screen grid grid-rows-[auto_1fr] bg-neutral-900 gap-2 ">
   <div class="p-4 space-y-4 backdrop-blur-xl">
     <select class="w-full p-4" bind:value={$sidebarSelectedCharacter}>
-      {#each Object.keys(talkers) as talker}
+      {#each allCharacters as talker}
         <option value={talker}>{talker}</option>
       {/each}
     </select>
