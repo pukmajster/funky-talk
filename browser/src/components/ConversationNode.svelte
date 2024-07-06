@@ -14,7 +14,7 @@
 </script>
 
 <div class="Root" class:RootHasChildren={node.children.length > 0} style={`padding-left: ${gap}px`} >
-  <div class=" relative p-2 rounded-lg bg-neutral-900 inline-block mt-2 text-sm" >
+  <div class=" relative p-2 rounded-lg bg-neutral-900 inline-block mt-2 text-sm max-w-[700px]" >
 
     {#if level > 0}
       <div class="absolute left-0 h-[1px] mt-[-1px] bg-white/20 top-1/2 translate-y-1/2" style={`width: ${gap}px; left: -${gap}px`} />
