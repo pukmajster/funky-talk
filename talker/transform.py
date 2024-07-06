@@ -86,6 +86,16 @@ def parseResponseBlock(lines):
     # Skip block closer "}"
     elif i == len(lines) - 1:
       continue
+
+    # Sequental parameter
+    elif split[0] == "sequential":
+      parsedResponse["sequential"] = True
+      continue
+
+    # Norepeat parameter
+    elif split[0] == "norepeat":
+      parsedResponse["norepeat"] = True
+      continue
    
     # Parse the scene
     else:
