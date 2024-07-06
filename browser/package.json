@@ -20,5 +20,8 @@
     "tslib": "^2.6.3",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "@xyflow/svelte": "^0.1.8"
   }
 }

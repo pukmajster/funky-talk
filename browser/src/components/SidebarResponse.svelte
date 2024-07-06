@@ -1,6 +1,6 @@
 <script lang="ts">
   import { sidebarSelectedResponse, sidebarSelectedCharacter } from "../state";
-  import type { Response } from "../types/types";
+  import type { Response } from "../types/talker";
 
   export let response: Response;
 

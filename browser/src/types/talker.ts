@@ -1,3 +1,5 @@
+import type { TalkerCharacter } from "../lib/talkers";
+
 export interface Criterion {
   name: string;
   matchKey: string;
@@ -11,8 +13,10 @@ export interface Response {
   scenes: Scene[];
 }
 
+type ResponseTarget = TalkerCharacter | "any";
+
 export interface SceneThenFollowUp {
-  target: string;
+  target: ResponseTarget;
   concept: string;
   responseContext: string;
   delay: number;

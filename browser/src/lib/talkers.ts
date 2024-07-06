@@ -1,4 +1,6 @@
-import type { TalkerScript } from "../types/types";
+import type { TalkerScript } from "../types/talker";
+
+export type TalkerCharacter = "Gambler" | "Coach" | "Mechanic" | "Producer";
 
 async function getTalkers() {
   async function loadCharacters() {
@@ -9,12 +11,16 @@ async function getTalkers() {
     const mechanic = await fetch("/talker/mechanic.json").then((res) =>
       res.json()
     );
+    const producer = await fetch("/talker/producer.json").then((res) =>
+      res.json()
+    );
 
     const fetchedTalker = {
       Gambler: gambler,
       Coach: coach,
       Mechanic: mechanic,
-    } as Record<string, TalkerScript>;
+      Producer: producer,
+    } as Record<TalkerCharacter, TalkerScript>;
 
     return fetchedTalker;
   }

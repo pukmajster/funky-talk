@@ -1,9 +1,9 @@
 import { writable } from "svelte/store";
+import type { TalkerCharacter } from "./lib/talkers";
 
-export type SidebarCharacter = "Gambler" | "Mechanic" | "Coach" | "Producer";
-export const sidebarSelectedCharacter = writable<SidebarCharacter>("Gambler");
+export const sidebarSelectedCharacter = writable<TalkerCharacter>("Gambler");
 
-export type SidebarSelectedResponse = [SidebarCharacter, string];
+export type SidebarSelectedResponse = [TalkerCharacter, string];
 export const sidebarSelectedResponse = writable<SidebarSelectedResponse | null>(
   null
 );

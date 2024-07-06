@@ -6,7 +6,7 @@
   let searchQuery = "";
 </script>
 
-<div class="w-[400px] max-h-screen grid grid-rows-[auto_1fr]   gap-2 ">
+<div class="w-[400px] max-h-screen grid grid-rows-[auto_1fr] bg-neutral-900 gap-2 ">
   <div class="p-4 space-y-4 backdrop-blur-xl">
     <select class="w-full p-4" bind:value={$sidebarSelectedCharacter}>
       {#each Object.keys(talkers) as talker}
@@ -22,7 +22,7 @@
     />
   </div>
 
-  <div class="grid grid-cols-1 gap-0 overflow-y-scroll">
+  <div class="flex flex-col gap-0 overflow-y-scroll">
     {#if true}
       {@const talker = talkers[$sidebarSelectedCharacter]}
       {@const responses = Object.entries(talker.responses).filter(([key, value]) => {
