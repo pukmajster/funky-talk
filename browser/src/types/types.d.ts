@@ -31,3 +31,9 @@ export interface Rule {
   applyContextToWorld?: boolean;
   response: string;
 }
+
+export interface TalkerScript {
+  rules: Record<string, Rule>;
+  responses: Record<string, Response>;
+  criterions: Record<string, Criterion>;
+}
