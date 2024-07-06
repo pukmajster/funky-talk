@@ -31,7 +31,7 @@
   
     {#if response.scenes?.length > 0}
       {#each Object.entries(response?.scenes) as [sceneName, scene]}
-        <div class="">
+        <div class="" class:hidden={!scene?.subtitle}>
           <p>- {scene?.subtitle}</p>
         </div>
       {/each}

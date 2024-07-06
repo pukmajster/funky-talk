@@ -1,6 +1,14 @@
 import type { TalkerScript } from "../types/talker";
 
-export type TalkerCharacter = "Gambler" | "Coach" | "Mechanic" | "Producer";
+export type TalkerCharacter =
+  | "Gambler"
+  | "Coach"
+  | "Mechanic"
+  | "Producer"
+  | "Biker"
+  | "NamVet"
+  | "Manager"
+  | "TeenGirl";
 
 async function getTalker2() {
   async function loadCharacters() {
