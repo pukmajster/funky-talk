@@ -22,7 +22,7 @@
     />
   </div>
 
-  <div class="grid grid-cols-1 gap-4 p-4 overflow-y-scroll">
+  <div class="grid grid-cols-1 gap-0 overflow-y-scroll">
     {#if true}
       {@const talker = talkers[$sidebarSelectedCharacter]}
       {@const responses = Object.entries(talker.responses).filter(([key, value]) => {
